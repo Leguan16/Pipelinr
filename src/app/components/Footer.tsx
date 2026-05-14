@@ -1,4 +1,4 @@
-import { Rocket, Github, Linkedin, Twitter } from 'lucide-react';
+import {Rocket, Github, Linkedin, Twitter, XIcon} from 'lucide-react';
 import { useNavigate, useLocation } from 'react-router';
 
 export function Footer() {
@@ -61,14 +61,11 @@ export function Footer() {
           </p>
 
           <div className="flex items-center gap-4">
-            <a href="#github" className="hover:text-white transition-colors">
+            <a href="#github" className="hover:text-white transition-colors" aria-label="Visit our GitHub Profile">
               <Github className="w-5 h-5" />
             </a>
-            <a href="#linkedin" className="hover:text-white transition-colors">
+            <a href="#linkedin" className="hover:text-white transition-colors" aria-label="Visit our Linked-In Profile">
               <Linkedin className="w-5 h-5" />
-            </a>
-            <a href="#twitter" className="hover:text-white transition-colors">
-              <Twitter className="w-5 h-5" />
             </a>
           </div>
         </div>
