@@ -1,0 +1,61 @@
+import { useState, useEffect } from 'react';
+import { useNavigate } from 'react-router';
+import { Cookie } from 'lucide-react';
+
+export function CookieBanner() {
+  const navigate = useNavigate();
+  const [visible, setVisible] = useState(false);
+
+  useEffect(() => {
+    const consent = localStorage.getItem('cookie-consent');
+    if (!consent) setVisible(true);
+  }, []);
+
+  function accept() {
+    localStorage.setItem('cookie-consent', 'accepted');
+    setVisible(false);
+  }
+
+  function reject() {
+    localStorage.setItem('cookie-consent', 'rejected');
+    setVisible(false);
+  }
+
+  if (!visible) return null;
+
+  return (
+    <div className="fixed bottom-0 left-0 right-0 z-50 p-4 sm:p-6">
+      <div className="max-w-4xl mx-auto bg-white border border-gray-200 rounded-xl shadow-lg p-4 sm:p-6 flex flex-col sm:flex-row items-start sm:items-center gap-4">
+        <Cookie className="w-6 h-6 text-blue-600 shrink-0 mt-0.5 sm:mt-0" />
+
+        <p className="text-sm text-gray-600 flex-1">
+          Wir verwenden Cookies und ähnliche Technologien – darunter technisch notwendige sowie Cookies zur Analyse des Nutzerverhaltens –
+          um unsere Website zu betreiben und zu verbessern. Mit „Akzeptieren" stimmen Sie der Verwendung aller Cookies zu.
+          Weitere Informationen finden Sie in unserer{' '}
+          <button
+            onClick={() => navigate('/privacy')}
+            className="text-blue-600 hover:underline"
+          >
+            Datenschutzerklärung
+          </button>
+          .
+        </p>
+
+        <div className="flex gap-2 shrink-0">
+          <button
+            onClick={reject}
+            className="px-4 py-2 text-sm text-gray-700 border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors"
+          >
+            Ablehnen
+          </button>
+          <button
+            onClick={accept}
+            className="px-4 py-2 text-sm text-white bg-blue-600 rounded-lg hover:bg-blue-700 transition-colors"
+          >
+            Akzeptieren
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+}

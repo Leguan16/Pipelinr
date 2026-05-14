@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import { createBrowserRouter, Outlet, useLocation } from 'react-router';
+import { CookieBanner } from './components/CookieBanner';
 import { Home } from './pages/Home';
 import { Registration } from './pages/Registration';
 import { Checkout } from './pages/Checkout';
@@ -20,7 +21,12 @@ function RootLayout() {
     window.scrollTo({ top: 0, behavior: 'instant' });
   }, [pathname]);
 
-  return <Outlet />;
+  return (
+    <>
+      <Outlet />
+      <CookieBanner />
+    </>
+  );
 }
 
 export const router = createBrowserRouter([
