@@ -1,5 +1,6 @@
 import { useNavigate } from 'react-router';
 import { Rocket, Target, Users, Zap, Heart, TrendingUp } from 'lucide-react';
+import {Footer} from "../components/Footer";
 
 export function About() {
   const navigate = useNavigate();
@@ -160,6 +161,7 @@ export function About() {
           </div>
         </div>
       </section>
+      <Footer/>
     </div>
   );
 }

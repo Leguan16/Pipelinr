@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router';
 import { Rocket, Mail, MapPin, Phone, Send } from 'lucide-react';
+import {Footer} from "../components/Footer";
+import {Header} from "../components/Header";
 
 export function Contact() {
   const navigate = useNavigate();
@@ -21,30 +23,7 @@ export function Contact() {
 
   return (
     <div className="min-h-screen bg-white">
-      <header className="fixed top-0 left-0 right-0 bg-white border-b border-gray-200 z-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between h-16">
-            <button onClick={() => navigate('/')} className="flex items-center gap-2">
-              <Rocket className="w-8 h-8 text-blue-600" />
-              <span className="text-xl font-semibold text-gray-900">DeployFlow</span>
-            </button>
-
-            <nav className="hidden md:flex items-center gap-8">
-              <button onClick={() => navigate('/#features')} className="text-gray-600 hover:text-gray-900 transition-colors">Features</button>
-              <button onClick={() => navigate('/#pricing')} className="text-gray-600 hover:text-gray-900 transition-colors">Preise</button>
-              <button onClick={() => navigate('/teams')} className="text-gray-600 hover:text-gray-900 transition-colors">Für Teams</button>
-              <button onClick={() => navigate('/contact')} className="text-gray-900 font-medium">Kontakt</button>
-            </nav>
-
-            <button
-              onClick={() => navigate('/registration?plan=Free')}
-              className="px-5 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
-            >
-              Kostenlos starten
-            </button>
-          </div>
-        </div>
-      </header>
+      <Header/>
 
       <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
@@ -173,6 +152,7 @@ export function Contact() {
           </div>
         </div>
       </section>
+      <Footer/>
     </div>
   );
 }

@@ -1,8 +1,17 @@
 import { Rocket, Github, Linkedin, Twitter } from 'lucide-react';
-import { useNavigate } from 'react-router';
+import { useNavigate, useLocation } from 'react-router';
 
 export function Footer() {
   const navigate = useNavigate();
+  const location = useLocation();
+
+  const handleHashNav = (hash: string) => {
+    if (location.pathname === '/') {
+      document.getElementById(hash)?.scrollIntoView({ behavior: 'smooth' });
+    } else {
+      navigate(`/#${hash}`);
+    }
+  };
 
   return (
     <footer className="bg-gray-900 text-gray-300 py-16 px-4 sm:px-6 lg:px-8">
@@ -21,10 +30,10 @@ export function Footer() {
           <div>
             <h3 className="text-white font-semibold mb-4">Produkt</h3>
             <ul className="space-y-2">
-              <li><a href="#features" className="hover:text-white transition-colors">Features</a></li>
-              <li><a href="#pricing" className="hover:text-white transition-colors">Preise</a></li>
+              <li><button onClick={() => handleHashNav('features')} className="hover:text-white transition-colors">Features</button></li>
+              <li><button onClick={() => handleHashNav('pricing')} className="hover:text-white transition-colors">Preise</button></li>
               <li><button onClick={() => navigate('/teams')} className="hover:text-white transition-colors">Für Teams</button></li>
-              <li><a href="#integrations" className="hover:text-white transition-colors">Integrationen</a></li>
+              <li><button onClick={() => handleHashNav('integrations')} className="hover:text-white transition-colors">Integrationen</button></li>
             </ul>
           </div>
 

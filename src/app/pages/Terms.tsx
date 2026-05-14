@@ -1,5 +1,6 @@
 import { useNavigate } from 'react-router';
 import { Rocket } from 'lucide-react';
+import {Footer} from "../components/Footer";
 
 export function Terms() {
   const navigate = useNavigate();
@@ -142,6 +143,7 @@ export function Terms() {
           </div>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 }

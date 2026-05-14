@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { useNavigate, useSearchParams } from 'react-router';
 import { Rocket, Check, CreditCard, AlertCircle } from 'lucide-react';
+import {Footer} from "../components/Footer";
 
 const planDetails = {
   Free: {
@@ -465,6 +466,7 @@ export function Checkout() {
           </div>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 }

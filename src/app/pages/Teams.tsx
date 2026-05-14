@@ -1,5 +1,7 @@
 import { useNavigate } from 'react-router';
 import { Rocket, Users, Shield, Zap, GitBranch, BarChart, Lock, MessageSquare, Clock, CheckCircle } from 'lucide-react';
+import { Footer } from '../components/Footer';
+import {Header} from "../components/Header";
 
 export function Teams() {
   const navigate = useNavigate();
@@ -48,31 +50,7 @@ export function Teams() {
 
   return (
     <div className="min-h-screen bg-white">
-      <header className="fixed top-0 left-0 right-0 bg-white border-b border-gray-200 z-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between h-16">
-            <button onClick={() => navigate('/')} className="flex items-center gap-2">
-              <Rocket className="w-8 h-8 text-blue-600" />
-              <span className="text-xl font-semibold text-gray-900">DeployFlow</span>
-            </button>
-
-            <nav className="hidden md:flex items-center gap-8">
-              <button onClick={() => navigate('/#features')} className="text-gray-600 hover:text-gray-900 transition-colors">Features</button>
-              <button onClick={() => navigate('/#pricing')} className="text-gray-600 hover:text-gray-900 transition-colors">Preise</button>
-              <button onClick={() => navigate('/teams')} className="text-gray-900 font-medium">Für Teams</button>
-              <button onClick={() => navigate('/#contact')} className="text-gray-600 hover:text-gray-900 transition-colors">Kontakt</button>
-            </nav>
-
-            <button
-              onClick={() => navigate('/registration?plan=Free')}
-              className="px-5 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
-            >
-              Kostenlos starten
-            </button>
-          </div>
-        </div>
-      </header>
-
+      <Header/>
       <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-blue-50 to-white">
         <div className="max-w-7xl mx-auto text-center">
           <div className="inline-flex items-center gap-2 bg-blue-100 text-blue-700 px-4 py-2 rounded-full mb-6">
@@ -250,55 +228,7 @@ export function Teams() {
           </div>
         </div>
       </section>
-
-      <footer className="bg-gray-900 text-gray-300 py-16 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-7xl mx-auto">
-          <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-12 mb-12">
-            <div className="lg:col-span-2">
-              <div className="flex items-center gap-2 mb-4">
-                <Rocket className="w-8 h-8 text-blue-500" />
-                <span className="text-xl font-semibold text-white">DeployFlow</span>
-              </div>
-              <p className="text-gray-400 leading-relaxed">
-                DeployFlow automatisiert Builds, Tests und Deployments für moderne Softwareteams.
-              </p>
-            </div>
-
-            <div>
-              <h3 className="text-white font-semibold mb-4">Produkt</h3>
-              <ul className="space-y-2">
-                <li><button onClick={() => navigate('/#features')} className="hover:text-white transition-colors">Features</button></li>
-                <li><button onClick={() => navigate('/#pricing')} className="hover:text-white transition-colors">Preise</button></li>
-                <li><a href="#integrations" className="hover:text-white transition-colors">Integrationen</a></li>
-                <li><a href="#roadmap" className="hover:text-white transition-colors">Roadmap</a></li>
-              </ul>
-            </div>
-
-            <div>
-              <h3 className="text-white font-semibold mb-4">Unternehmen</h3>
-              <ul className="space-y-2">
-                <li><button onClick={() => navigate('/about')} className="hover:text-white transition-colors">Über uns</button></li>
-                <li><button onClick={() => navigate('/contact')} className="hover:text-white transition-colors">Kontakt</button></li>
-              </ul>
-            </div>
-
-            <div>
-              <h3 className="text-white font-semibold mb-4">Rechtliches</h3>
-              <ul className="space-y-2">
-                <li><button onClick={() => navigate('/imprint')} className="hover:text-white transition-colors">Impressum</button></li>
-                <li><button onClick={() => navigate('/privacy')} className="hover:text-white transition-colors">Datenschutz</button></li>
-                <li><button onClick={() => navigate('/terms')} className="hover:text-white transition-colors">AGB</button></li>
-              </ul>
-            </div>
-          </div>
-
-          <div className="border-t border-gray-800 pt-8 text-center">
-            <p className="text-gray-400 text-sm">
-              © 2026 DeployFlow. Alle Rechte vorbehalten.
-            </p>
-          </div>
-        </div>
-      </footer>
+      <Footer/>
     </div>
   );
 }
