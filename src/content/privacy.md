@@ -13,7 +13,7 @@ auf dieser Website können Sie im Impressum dieser Website einsehen.
 
 ## 1. Erhebung und Verarbeitung personenbezogener Daten
 
-Wenn Nutzer diese Website besuchen, werden grundsätzlich folgende technisch notwendigen daten verarbeitet: 
+Wenn Nutzerinnen oder Nutzer diese Website besuchen, werden grundsätzlich folgende technisch notwendigen daten verarbeitet: 
 
 - Browsertyp und Browserversion
 - verwendetes Betriebssystem
@@ -24,7 +24,7 @@ Wenn Nutzer diese Website besuchen, werden grundsätzlich folgende technisch not
 
 Diese Daten dienen der technischen Bereitstellung, Sicherheit und Funktion der Website.
 
-Sollten sich Nutzer dazu entscheiden, sich zu registrieren um ein Produkt zu erwerben oder ein Formular zu verwenden, werden zusätzlich folgende Daten erfasst und verarbeitet:
+Sollten sich Nutzerinnen oder Nutzer dazu entscheiden, sich zu registrieren um ein Produkt zu erwerben oder ein Formular zu verwenden, werden zusätzlich folgende Daten erfasst und verarbeitet:
 
 - Name
 - E-Mail-Adresse
@@ -34,6 +34,15 @@ Sollten sich Nutzer dazu entscheiden, sich zu registrieren um ein Produkt zu erw
 
 Diese Daten werden ausschließlich verwendet, um die Registrierung und Nutzung der angebotenen Funktionen der Website zu ermöglichen 
 sowie Anfragen der Nutzerinnen und Nutzer zu bearbeiten.
+
+Wenn explizit der Erhebung und Verarbeitung von Analysedaten zugestimmt wird, werden zusätzlich folgende Daten erfasst und verarbeitet:
+
+- Cookies
+- Besuchshäufigkeit
+- Besuchsdauer
+- Interaktionen mit der Website
+
+Diese Daten werden verwendet, um die Nutzung der Website zu analysieren und zu verbessern. Rechtsgrundlage ist die Einwilligung der Nutzerinnen und Nutzer gemäß Art. 6 Abs. 1 lit. a DSGVO.
 
 ## 2. Hosting
 
@@ -68,11 +77,15 @@ Daten, die für die Bereitstellung der Website benötigt werden, werden grundsä
 Diese Daten können auch in Server- oder Sicherheitsprotokollen gespeichert werden. Dabei erfolgt die Speicherung nur für den Zeitraum, 
 der für die technische Sicherheit und Fehlerbehebung erforderlich ist.
 
+Daten, die für die Analyse der Website benötigt werden, werden nur auf Grundlage einer Einwilligung verarbeitet. 
+Die Speicherdauer richtet sich nach den jeweiligen Anforderungen des eingesetzten Dienstes.
+Nutzerinnen und Nutzer können ihre Einwilligung jederzeit widerrufen. 
+
 Im Rahmen der Bereitstellung der Website durch Cloudflare können technische Verbindungs- und Sicherheitsdaten durch Cloduflare verarbeitet werden. Details dazu finden Sie in der Datenschutzerklärung von Cloudflare (https://www.cloudflare.com/privacypolicy/).
 
 ## 4. Cookies
 
-Diese Website verwendet verschiedene Cookies, um das Nutzungserlebnis zu verbessern, die Nutzung der Website zu analysieren. 
+Diese Website verwendet verschiedene Cookies, um das Nutzungserlebnis zu verbessern und  zu analysieren. 
 Dazu werden Informationen über Seitenaufrufe, Klickverhalten und Nutzerinteraktionen gesammelt und verarbeitet. Solche Cookies werden nur nach entsprechender Einwilligung gesetzt.  
 
 Cookies, die benötigt werden, um die Funktionsfähigkeit der Website zu gewährleisten, werden unabhängig von der Einwilligung gesetzt. 
