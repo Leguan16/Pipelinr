@@ -42,7 +42,7 @@ export function Contact() {
                 <Mail className="w-6 h-6 text-blue-600" />
               </div>
               <h3 className="font-semibold text-gray-900 mb-2">E-Mail</h3>
-              <p className="text-gray-600">support@deployflow.com</p>
+              <p className="text-gray-600">contact@deployflow.com</p>
             </div>
 
             <div className="bg-gray-50 p-6 rounded-xl text-center">
@@ -50,7 +50,7 @@ export function Contact() {
                 <Phone className="w-6 h-6 text-blue-600" />
               </div>
               <h3 className="font-semibold text-gray-900 mb-2">Telefon</h3>
-              <p className="text-gray-600">+49 30 1234 5678</p>
+              <p className="text-gray-600">+43 660 1234567</p>
             </div>
 
             <div className="bg-gray-50 p-6 rounded-xl text-center">
@@ -58,7 +58,7 @@ export function Contact() {
                 <MapPin className="w-6 h-6 text-blue-600" />
               </div>
               <h3 className="font-semibold text-gray-900 mb-2">Adresse</h3>
-              <p className="text-gray-600">Musterstraße 123<br />10115 Berlin, Deutschland</p>
+              <p className="text-gray-600">Musterstraße 123<br />1010, Wien</p>
             </div>
           </div>
 

@@ -6,7 +6,7 @@ DeployFlow GmbH \
 Musterstraße 123, 1010 Wien \
 Österreich  
 
-Telefon: 0660 1234567 \
+Telefon: +43 660 1234567 \
 E-Mail: contact@deployflow.com 
 
 Firmenbuch: 1029242f \

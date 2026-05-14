@@ -72,9 +72,11 @@ Im Rahmen der Bereitstellung der Website durch Cloudflare können technische Ver
 
 ## 4. Cookies
 
-Diese Website verwendet, soweit erforderlich, nur technisch notwendige Cookies. Diese Cookies dienen ausschließlich der Funktionsfähigkeit und Bereitstellung der Website.
+Diese Website verwendet verschiedene Cookies, um das Nutzungserlebnis zu verbessern, die Nutzung der Website zu analysieren. 
+Dazu werden Informationen über Seitenaufrufe, Klickverhalten und Nutzerinteraktionen gesammelt und verarbeitet. Solche Cookies werden nur nach entsprechender Einwilligung gesetzt.  
 
-Nicht notwendige Cookies wie Analyse- oder Marketing-Cookies werden nicht verwendet. 
+Cookies, die benötigt werden, um die Funktionsfähigkeit der Website zu gewährleisten, werden unabhängig von der Einwilligung gesetzt. 
+Diese Cookies sind technisch notwendig und ermöglichen die Nutzung der Website. 
 
 ## 5. Ihre Rechte
 
