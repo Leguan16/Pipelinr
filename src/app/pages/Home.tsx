@@ -4,6 +4,7 @@ import { Header } from '../components/Header';
 import { HeroSection } from '../components/HeroSection';
 import { TrustBadges } from '../components/TrustBadges';
 import { FeaturesSection } from '../components/FeaturesSection';
+import { PipelineBuilderSection } from '../components/PipelineBuilderSection';
 import { ProcessSection } from '../components/ProcessSection';
 import { PricingSection } from '../components/PricingSection';
 import { LoginSection } from '../components/LoginSection';
@@ -29,6 +30,7 @@ export function Home() {
       <HeroSection />
       <TrustBadges />
       <FeaturesSection />
+      <PipelineBuilderSection />
       <ProcessSection />
       <PricingSection />
       <LoginSection />

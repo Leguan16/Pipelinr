@@ -14,14 +14,18 @@ Gerichtsstand: Handelsgericht Wien \
 UID-Nummer: ATU24528504 \
 Unternehmensgegenstand: Entwicklung und Vertrieb von Software sowie IT-Dienstleistungen.
 
-Anwendbare Rechtsvorschriften und Zugang dazu: Gewerbeordnung 1994, abrufbar unter www.ris.bka.gv.at \
+Anwendbare Rechtsvorschriften und Zugang dazu: Gewerbeordnung 1994, abrufbar unter [www.ris.bka.gv.at](https://www.ris.bka.gv.at) \
 Aufsichtsbehörde: Magistratisches Bezirksamt des I. Bezirkes
 
 ## Lizenzen & Hinweise
 
+Lizenzen: Diese Website verwendet an manchen Stellen "JetBrains Mono" als Schriftart.
+"JetbBrains" stellt diese Schriftart unter der SIL Open Font License, Version 1.1 ([https://scripts.sil.org/OFL](https://scripts.sil.org/OFL)) zur freien Nutzung
+und Weiterverbreitung zur Verfügung.
+
 KI-Hinweis:
 Das Layout und einzelne Inhalte wurden mithilfe von Figma und Figma AI gestaltet bzw. überarbeitet.
-Nach den Figma AI Terms (https://www.figma.com/legal/ai-terms/) behalten Nutzer grundsätzlich ihre Rechte an eigenen Inhalten.
+Nach den Figma AI Terms ([https://www.figma.com/legal/ai-terms/](https://www.figma.com/legal/ai-terms/)) behalten Nutzer grundsätzlich ihre Rechte an eigenen Inhalten.
 Alle Inhalte wurden vor der Veröffentlichung geprüft.
 
 Erstellungshinweis: 
