@@ -27,7 +27,7 @@ export function LegalPage({ content }: LegalPageProps) {
                 <p className="text-gray-700 mb-6">{children}</p>
               ),
               a: ({ href, children }) => (
-                <a href={href} className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">
+                <a href={href} className="text-blue-600 underline underline-offset-2 hover:text-blue-800 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded-sm" target="_blank" rel="noopener noreferrer">
                   {children}
                 </a>
               ),

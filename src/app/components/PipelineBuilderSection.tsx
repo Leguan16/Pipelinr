@@ -71,8 +71,8 @@ const statusConfig: Record<Status, { bg: string; border: string; text: string; d
   pending: {
     bg: 'bg-gray-50',
     border: 'border-gray-200',
-    text: 'text-gray-400',
-    dot: 'bg-gray-300',
+    text: 'text-gray-600',
+    dot: 'bg-gray-400',
     label: 'Ausstehend',
   },
 };
@@ -112,7 +112,7 @@ export function PipelineBuilderSection() {
                 className={`px-4 py-1.5 text-sm font-medium rounded-md transition-colors cursor-pointer ${
                   tab === 'pipeline'
                     ? 'bg-white text-gray-900 shadow-sm'
-                    : 'text-gray-500 hover:text-gray-700'
+                    : 'text-gray-700 hover:text-gray-900'
                 }`}
               >
                 Pipeline Builder
@@ -122,7 +122,7 @@ export function PipelineBuilderSection() {
                 className={`px-4 py-1.5 text-sm font-medium rounded-md transition-colors cursor-pointer ${
                   tab === 'yaml'
                     ? 'bg-white text-gray-900 shadow-sm'
-                    : 'text-gray-500 hover:text-gray-700'
+                    : 'text-gray-700 hover:text-gray-900'
                 }`}
                 style={tab === 'yaml' ? {} : { fontFamily: 'inherit' }}
               >
@@ -174,19 +174,19 @@ export function PipelineBuilderSection() {
                           <Icon className={`w-5 h-5 ${cfg.text}`} />
                         </div>
                         <span className={`text-xs font-semibold text-center leading-tight ${
-                          stage.status === 'pending' ? 'text-gray-400' : 'text-gray-700'
+                          stage.status === 'pending' ? 'text-gray-600' : 'text-gray-700'
                         }`}>
                           {stage.label}
                         </span>
                         <div className="flex items-center gap-1">
                           {stage.status === 'success' && (
-                            <CheckCircle2 className="w-3 h-3 text-green-500" />
+                            <CheckCircle2 className="w-3 h-3 text-green-700" />
                           )}
                           {stage.status === 'running' && (
                             <span className="w-2 h-2 rounded-full bg-blue-500 animate-pulse" />
                           )}
                           {stage.status === 'pending' && (
-                            <Clock className="w-3 h-3 text-gray-300" />
+                            <Clock className="w-3 h-3 text-gray-500" />
                           )}
                           <span className={`text-xs ${cfg.text}`}>
                             {stage.status === 'running' ? cfg.label : stage.duration !== '–' ? stage.duration : cfg.label}
@@ -197,7 +197,7 @@ export function PipelineBuilderSection() {
                       {/* Arrow connector */}
                       {i < stages.length - 1 && (
                         <ChevronRight className={`w-5 h-5 flex-shrink-0 mx-1 ${
-                          stages[i + 1].status === 'pending' ? 'text-gray-200' : 'text-gray-400'
+                          stages[i + 1].status === 'pending' ? 'text-gray-400' : 'text-gray-500'
                         }`} />
                       )}
                     </div>
@@ -237,7 +237,7 @@ export function PipelineBuilderSection() {
               showLineNumbers
               lineNumberStyle={{
                 fontFamily: "'JetBrains Mono', monospace",
-                color: '#bbb',
+                color: '#767676',
                 minWidth: '2.25rem',
                 paddingRight: '1rem',
               }}
