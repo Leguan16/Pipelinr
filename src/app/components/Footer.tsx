@@ -22,7 +22,7 @@ export function Footer() {
           <div className="lg:col-span-2">
             <div className="flex items-center gap-2 mb-4">
               <img src={logo} alt="DeployFlow" className="h-10 w-auto" />
-              <span className="text-xl font-semibold text-gray-900">DeployFlow</span>
+              <span className="text-xl font-semibold text-white">DeployFlow</span>
             </div>
             <p className="text-gray-400 leading-relaxed">
               DeployFlow automatisiert Builds, Tests und Deployments für moderne Softwareteams.
