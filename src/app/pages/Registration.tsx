@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { useNavigate, useSearchParams } from 'react-router';
-import { Rocket, Shield } from 'lucide-react';
+import { Shield } from 'lucide-react';
+import logo from '/src/content/logo.svg';
 
 export function Registration() {
   const [searchParams] = useSearchParams();
@@ -51,7 +52,7 @@ export function Registration() {
       <div className="max-w-6xl w-full grid lg:grid-cols-2 gap-12 items-center">
         <div className="hidden lg:block">
           <div className="flex items-center gap-2 mb-6">
-            <Rocket className="w-10 h-10 text-blue-600" />
+            <img src={logo} alt="DeployFlow" className="h-10 w-auto" />
             <span className="text-2xl font-semibold text-gray-900">DeployFlow</span>
           </div>
           <h2 className="text-4xl font-bold text-gray-900 mb-4">
@@ -73,7 +74,7 @@ export function Registration() {
 
         <div className="bg-white rounded-2xl shadow-xl p-8 border border-gray-200">
           <div className="lg:hidden flex items-center gap-2 mb-6">
-            <Rocket className="w-8 h-8 text-blue-600" />
+            <img src={logo} alt="DeployFlow" className="h-10 w-auto" />
             <span className="text-xl font-semibold text-gray-900">DeployFlow</span>
           </div>
 

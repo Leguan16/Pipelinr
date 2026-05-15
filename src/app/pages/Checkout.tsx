@@ -1,7 +1,8 @@
 import { useState } from 'react';
 import { useNavigate, useSearchParams } from 'react-router';
-import { Rocket, Check, CreditCard, AlertCircle } from 'lucide-react';
+import { Check, CreditCard, AlertCircle } from 'lucide-react';
 import {Footer} from "../components/Footer";
+import logo from '/src/content/logo.svg';
 
 const planDetails = {
   Free: {
@@ -91,7 +92,7 @@ export function Checkout() {
       <div className="min-h-screen bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl mx-auto">
           <div className="flex items-center gap-2 mb-8">
-            <Rocket className="w-8 h-8 text-blue-600" />
+            <img src={logo} alt="DeployFlow" className="h-10 w-auto" />
             <span className="text-xl font-semibold text-gray-900">DeployFlow</span>
           </div>
 
@@ -175,7 +176,7 @@ export function Checkout() {
     <div className="min-h-screen bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <div className="flex items-center gap-2 mb-8">
-          <Rocket className="w-8 h-8 text-blue-600" />
+          <img src={logo} alt="DeployFlow" className="h-10 w-auto" />
           <span className="text-xl font-semibold text-gray-900">DeployFlow</span>
         </div>
 

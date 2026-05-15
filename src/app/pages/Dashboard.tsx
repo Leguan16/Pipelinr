@@ -1,5 +1,7 @@
-import { Rocket, Home } from 'lucide-react';
+import { Home } from 'lucide-react';
 import { useNavigate } from 'react-router';
+import logo from '/src/content/logo.svg';
+
 
 export function Dashboard() {
   const navigate = useNavigate();
@@ -7,7 +9,7 @@ export function Dashboard() {
   return (
     <div className="min-h-screen bg-gray-50 flex items-center justify-center px-4">
       <div className="max-w-2xl w-full text-center">
-        <Rocket className="w-24 h-24 text-blue-600 mx-auto mb-6" />
+        <img src={logo} alt="DeployFlow" className="h-10 w-auto" />
         <h1 className="text-4xl font-bold text-gray-900 mb-4">
           Dashboard (Mockup)
         </h1>

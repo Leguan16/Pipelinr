@@ -1,5 +1,5 @@
 import { useNavigate } from 'react-router';
-import { Rocket, Users, Shield, Zap, GitBranch, BarChart, Lock, MessageSquare, Clock, CheckCircle } from 'lucide-react';
+import { Users, Shield, GitBranch, BarChart, Lock, MessageSquare, Clock, CheckCircle } from 'lucide-react';
 import { Footer } from '../components/Footer';
 import {Header} from "../components/Header";
 

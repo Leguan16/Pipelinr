@@ -1,5 +1,7 @@
-import {Rocket, Github, Linkedin, Twitter, XIcon} from 'lucide-react';
+import { Github, Linkedin } from 'lucide-react';
 import { useNavigate, useLocation } from 'react-router';
+import logo from '/src/content/logo.svg';
+
 
 export function Footer() {
   const navigate = useNavigate();
@@ -19,8 +21,8 @@ export function Footer() {
         <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-12 mb-12">
           <div className="lg:col-span-2">
             <div className="flex items-center gap-2 mb-4">
-              <Rocket className="w-8 h-8 text-blue-500" />
-              <span className="text-xl font-semibold text-white">DeployFlow</span>
+              <img src={logo} alt="DeployFlow" className="h-10 w-auto" />
+              <span className="text-xl font-semibold text-gray-900">DeployFlow</span>
             </div>
             <p className="text-gray-400 leading-relaxed">
               DeployFlow automatisiert Builds, Tests und Deployments für moderne Softwareteams.

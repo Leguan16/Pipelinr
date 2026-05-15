@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router';
-import { Rocket } from 'lucide-react';
+import logo from '/src/content/logo.svg';
+
 
 export function Login() {
   const navigate = useNavigate();
@@ -19,7 +20,7 @@ export function Login() {
       <div className="max-w-md w-full">
         <div className="bg-white rounded-2xl shadow-xl p-8 border border-gray-200">
           <div className="flex items-center gap-2 mb-6 justify-center">
-            <Rocket className="w-8 h-8 text-blue-600" />
+            <img src={logo} alt="DeployFlow" className="h-10 w-auto" />
             <span className="text-xl font-semibold text-gray-900">DeployFlow</span>
           </div>
 

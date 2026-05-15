@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <title>DeployFlow</title>
+  <defs>
+    <marker id="ab" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto">
+      <path d="M1.5 2.5 L8 5 L1.5 7.5" fill="none" stroke="#60A5FA" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+    <marker id="ag" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto">
+      <path d="M1.5 2.5 L8 5 L1.5 7.5" fill="none" stroke="#34D399" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+<!--  <rect width="120" height="120" rx="26" fill="#0B1A38"/>-->
+
+  <!-- Pipeline arcs: Build → Integrate → Deploy → Build -->
+  <path d="M 43 78 Q 60 94 77 78" fill="none" stroke="#60A5FA" stroke-width="2.2" stroke-linecap="round" opacity="0.85" marker-end="url(#ab)"/>
+  <path d="M 82 70 Q 87 46 67 42" fill="none" stroke="#60A5FA" stroke-width="2.2" stroke-linecap="round" opacity="0.85" marker-end="url(#ab)"/>
+  <path d="M 53 42 Q 34 46 38 70" fill="none" stroke="#34D399" stroke-width="2.2" stroke-linecap="round" opacity="0.85" marker-end="url(#ag)"/>
+
+  <!-- Build node (bottom-left) -->
+  <circle cx="34" cy="78" r="9" fill="#0B1A38" stroke="#60A5FA" stroke-width="2.5"/>
+  <circle cx="34" cy="78" r="3.5" fill="#60A5FA"/>
+
+  <!-- Integrate node (bottom-right) -->
+  <circle cx="86" cy="78" r="9" fill="#0B1A38" stroke="#60A5FA" stroke-width="2.5"/>
+  <circle cx="86" cy="78" r="3.5" fill="#60A5FA"/>
+
+  <!-- Deploy node (top — larger, emerald) -->
+  <circle cx="60" cy="30" r="14" fill="#0B1A38" stroke="#34D399" stroke-width="2.5"/>
+  <path d="M 60 37 L 60 21" stroke="#34D399" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="M 56 25.5 L 60 21 L 64 25.5" fill="none" stroke="#34D399" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
