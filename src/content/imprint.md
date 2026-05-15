@@ -17,6 +17,8 @@ Unternehmensgegenstand: Entwicklung und Vertrieb von Software sowie IT-Dienstlei
 Anwendbare Rechtsvorschriften und Zugang dazu: Gewerbeordnung 1994, abrufbar unter www.ris.bka.gv.at \
 Aufsichtsbehörde: Magistratisches Bezirksamt des I. Bezirkes
 
+## Lizenzen & Hinweise
+
 KI-Hinweis:
 Das Layout und einzelne Inhalte wurden mithilfe von Figma und Figma AI gestaltet bzw. überarbeitet.
 Nach den Figma AI Terms (https://www.figma.com/legal/ai-terms/) behalten Nutzer grundsätzlich ihre Rechte an eigenen Inhalten.
