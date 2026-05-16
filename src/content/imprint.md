@@ -23,6 +23,8 @@ Aufsichtsbehörde: Magistratisches Bezirksamt des I. Bezirkes
 JetbBrains stellt diese Schriftart unter der SIL Open Font License, Version 1.1 ([https://scripts.sil.org/OFL](https://scripts.sil.org/OFL)) 
 zur freien Nutzung und Weiterverbreitung zur Verfügung.
 
+Stripe erlaubt die Nutzung ihrer offiziellen Brand-Assets per ihren Mark usage Terms ([https://stripe.com/de/legal/marks](https://stripe.com/de/legal/marks)).
+
 **KI-Hinweise:**
 Das Layout und einzelne Inhalte wurden mithilfe von Figma und Figma AI gestaltet bzw. überarbeitet.
 Laut den Figma AI Terms ([https://www.figma.com/legal/ai-terms/](https://www.figma.com/legal/ai-terms/)) 

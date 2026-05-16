@@ -328,10 +328,7 @@ export function Checkout() {
                       <CreditCard className="w-6 h-6" />
                       Zahlungsdaten
                     </h2>
-                    <span className="flex items-center gap-1.5 px-3 py-1.5 bg-[#635bff]/10 border border-[#635bff]/20 rounded-lg text-xs font-medium text-[#4f46e5]">
-                      <Lock className="w-3 h-3" />
-                      Gesichert durch <strong>Stripe</strong>
-                    </span>
+                    <img src="/src/content/stripe.svg" alt="Powered by Stripe" className="h-8" />
                   </div>
 
                   <div className="space-y-5">
