@@ -106,45 +106,53 @@ export function Checkout() {
 
             <form onSubmit={handleSubmit} className="space-y-5">
               <div>
-                <label className="block text-sm font-medium text-gray-700 mb-2">
+                <label htmlFor="ent-company" className="block text-sm font-medium text-gray-700 mb-2">
                   Unternehmensname
                 </label>
                 <input
+                  id="ent-company"
                   type="text"
                   required
+                  aria-required="true"
                   className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
                 />
               </div>
 
               <div>
-                <label className="block text-sm font-medium text-gray-700 mb-2">
+                <label htmlFor="ent-contact" className="block text-sm font-medium text-gray-700 mb-2">
                   Ansprechpartner
                 </label>
                 <input
+                  id="ent-contact"
                   type="text"
                   required
+                  aria-required="true"
                   className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
                 />
               </div>
 
               <div>
-                <label className="block text-sm font-medium text-gray-700 mb-2">
+                <label htmlFor="ent-email" className="block text-sm font-medium text-gray-700 mb-2">
                   E-Mail
                 </label>
                 <input
+                  id="ent-email"
                   type="email"
                   required
+                  aria-required="true"
                   className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
                 />
               </div>
 
               <div>
-                <label className="block text-sm font-medium text-gray-700 mb-2">
+                <label htmlFor="ent-message" className="block text-sm font-medium text-gray-700 mb-2">
                   Nachricht
                 </label>
                 <textarea
+                  id="ent-message"
                   rows={5}
                   required
+                  aria-required="true"
                   className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
                   placeholder="Erzähle uns von deinen Anforderungen..."
                 />
@@ -219,10 +227,11 @@ export function Checkout() {
               <h2 className="text-2xl font-bold text-gray-900 mb-6">Rechnungsdaten</h2>
               <form onSubmit={handleSubmit} className="space-y-5">
                 <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">
+                  <label htmlFor="bill-company" className="block text-sm font-medium text-gray-700 mb-2">
                     Unternehmensname
                   </label>
                   <input
+                    id="bill-company"
                     type="text"
                     value={formData.companyName}
                     onChange={(e) => setFormData({ ...formData, companyName: e.target.value })}
@@ -232,10 +241,11 @@ export function Checkout() {
 
                 <div className="grid md:grid-cols-2 gap-5">
                   <div>
-                    <label className="block text-sm font-medium text-gray-700 mb-2">
+                    <label htmlFor="bill-firstname" className="block text-sm font-medium text-gray-700 mb-2">
                       Vorname
                     </label>
                     <input
+                      id="bill-firstname"
                       type="text"
                       value={formData.firstName}
                       onChange={(e) => setFormData({ ...formData, firstName: e.target.value })}
@@ -243,10 +253,11 @@ export function Checkout() {
                     />
                   </div>
                   <div>
-                    <label className="block text-sm font-medium text-gray-700 mb-2">
+                    <label htmlFor="bill-lastname" className="block text-sm font-medium text-gray-700 mb-2">
                       Nachname
                     </label>
                     <input
+                      id="bill-lastname"
                       type="text"
                       value={formData.lastName}
                       onChange={(e) => setFormData({ ...formData, lastName: e.target.value })}
@@ -256,10 +267,11 @@ export function Checkout() {
                 </div>
 
                 <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">
+                  <label htmlFor="bill-address" className="block text-sm font-medium text-gray-700 mb-2">
                     Rechnungsadresse
                   </label>
                   <input
+                    id="bill-address"
                     type="text"
                     value={formData.address}
                     onChange={(e) => setFormData({ ...formData, address: e.target.value })}
@@ -269,10 +281,11 @@ export function Checkout() {
 
                 <div className="grid md:grid-cols-3 gap-5">
                   <div>
-                    <label className="block text-sm font-medium text-gray-700 mb-2">
+                    <label htmlFor="bill-zip" className="block text-sm font-medium text-gray-700 mb-2">
                       PLZ
                     </label>
                     <input
+                      id="bill-zip"
                       type="text"
                       value={formData.zipCode}
                       onChange={(e) => setFormData({ ...formData, zipCode: e.target.value })}
@@ -280,10 +293,11 @@ export function Checkout() {
                     />
                   </div>
                   <div className="md:col-span-2">
-                    <label className="block text-sm font-medium text-gray-700 mb-2">
+                    <label htmlFor="bill-city" className="block text-sm font-medium text-gray-700 mb-2">
                       Stadt
                     </label>
                     <input
+                      id="bill-city"
                       type="text"
                       value={formData.city}
                       onChange={(e) => setFormData({ ...formData, city: e.target.value })}
@@ -293,10 +307,11 @@ export function Checkout() {
                 </div>
 
                 <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">
+                  <label htmlFor="bill-country" className="block text-sm font-medium text-gray-700 mb-2">
                     Land
                   </label>
                   <select
+                    id="bill-country"
                     value={formData.country}
                     onChange={(e) => setFormData({ ...formData, country: e.target.value })}
                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
@@ -321,10 +336,11 @@ export function Checkout() {
 
                   <div className="space-y-5">
                     <div>
-                      <label className="block text-sm font-medium text-gray-700 mb-2">
+                      <label htmlFor="pay-cardholder" className="block text-sm font-medium text-gray-700 mb-2">
                         Karteninhaber
                       </label>
                       <input
+                        id="pay-cardholder"
                         type="text"
                         value={formData.cardHolder}
                         onChange={(e) => setFormData({ ...formData, cardHolder: e.target.value })}
@@ -333,10 +349,11 @@ export function Checkout() {
                     </div>
 
                     <div>
-                      <label className="block text-sm font-medium text-gray-700 mb-2">
+                      <label htmlFor="pay-cardnumber" className="block text-sm font-medium text-gray-700 mb-2">
                         Kartennummer
                       </label>
                       <input
+                        id="pay-cardnumber"
                         type="text"
                         value={formData.cardNumber}
                         onChange={(e) => setFormData({ ...formData, cardNumber: e.target.value })}
@@ -347,10 +364,11 @@ export function Checkout() {
 
                     <div className="grid grid-cols-2 gap-5">
                       <div>
-                        <label className="block text-sm font-medium text-gray-700 mb-2">
+                        <label htmlFor="pay-expiry" className="block text-sm font-medium text-gray-700 mb-2">
                           Ablaufdatum
                         </label>
                         <input
+                          id="pay-expiry"
                           type="text"
                           value={formData.expiry}
                           onChange={(e) => setFormData({ ...formData, expiry: e.target.value })}
@@ -359,10 +377,11 @@ export function Checkout() {
                         />
                       </div>
                       <div>
-                        <label className="block text-sm font-medium text-gray-700 mb-2">
+                        <label htmlFor="pay-cvc" className="block text-sm font-medium text-gray-700 mb-2">
                           CVC
                         </label>
                         <input
+                          id="pay-cvc"
                           type="text"
                           value={formData.cvc}
                           onChange={(e) => setFormData({ ...formData, cvc: e.target.value })}

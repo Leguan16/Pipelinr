@@ -33,29 +33,33 @@ export function Login() {
 
           <form onSubmit={handleSubmit} className="space-y-5">
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-2">
+              <label htmlFor="login-email" className="block text-sm font-medium text-gray-700 mb-2">
                 E-Mail-Adresse
               </label>
               <input
+                id="login-email"
                 type="email"
                 value={formData.email}
                 onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                 placeholder="name@unternehmen.com"
                 required
+                aria-required="true"
                 className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
               />
             </div>
 
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-2">
+              <label htmlFor="login-password" className="block text-sm font-medium text-gray-700 mb-2">
                 Passwort
               </label>
               <input
+                id="login-password"
                 type="password"
                 value={formData.password}
                 onChange={(e) => setFormData({ ...formData, password: e.target.value })}
                 placeholder="Dein Passwort"
                 required
+                aria-required="true"
                 className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
               />
             </div>

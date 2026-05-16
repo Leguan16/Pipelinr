@@ -53,6 +53,7 @@ export function Footer() {
               <li><button onClick={() => navigate('/imprint')} className="hover:text-white transition-colors">Impressum</button></li>
               <li><button onClick={() => navigate('/privacy')} className="hover:text-white transition-colors">Datenschutz</button></li>
               <li><button onClick={() => navigate('/terms')} className="hover:text-white transition-colors">AGB</button></li>
+              <li><button onClick={() => navigate('/accessibility')} className="hover:text-white transition-colors">Barrierefreiheit</button></li>
             </ul>
           </div>
         </div>

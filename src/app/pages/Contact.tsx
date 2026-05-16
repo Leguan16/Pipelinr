@@ -71,12 +71,14 @@ export function Contact() {
               <form onSubmit={handleSubmit} className="space-y-5">
                 <div className="grid md:grid-cols-2 gap-5">
                   <div>
-                    <label className="block text-sm font-medium text-gray-700 mb-2">
+                    <label htmlFor="contact-name" className="block text-sm font-medium text-gray-700 mb-2">
                       Name *
                     </label>
                     <input
+                      id="contact-name"
                       type="text"
                       required
+                      aria-required="true"
                       value={formData.name}
                       onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
@@ -85,12 +87,14 @@ export function Contact() {
                   </div>
 
                   <div>
-                    <label className="block text-sm font-medium text-gray-700 mb-2">
+                    <label htmlFor="contact-email" className="block text-sm font-medium text-gray-700 mb-2">
                       E-Mail *
                     </label>
                     <input
+                      id="contact-email"
                       type="email"
                       required
+                      aria-required="true"
                       value={formData.email}
                       onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
@@ -100,10 +104,11 @@ export function Contact() {
                 </div>
 
                 <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">
+                  <label htmlFor="contact-company" className="block text-sm font-medium text-gray-700 mb-2">
                     Unternehmen
                   </label>
                   <input
+                    id="contact-company"
                     type="text"
                     value={formData.company}
                     onChange={(e) => setFormData({ ...formData, company: e.target.value })}
@@ -113,12 +118,14 @@ export function Contact() {
                 </div>
 
                 <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">
+                  <label htmlFor="contact-subject" className="block text-sm font-medium text-gray-700 mb-2">
                     Betreff *
                   </label>
                   <input
+                    id="contact-subject"
                     type="text"
                     required
+                    aria-required="true"
                     value={formData.subject}
                     onChange={(e) => setFormData({ ...formData, subject: e.target.value })}
                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
@@ -127,11 +134,13 @@ export function Contact() {
                 </div>
 
                 <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">
+                  <label htmlFor="contact-message" className="block text-sm font-medium text-gray-700 mb-2">
                     Nachricht *
                   </label>
                   <textarea
+                    id="contact-message"
                     required
+                    aria-required="true"
                     rows={6}
                     value={formData.message}
                     onChange={(e) => setFormData({ ...formData, message: e.target.value })}

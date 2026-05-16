@@ -93,59 +93,71 @@ export function Registration() {
 
           <form onSubmit={handleSubmit} className="space-y-5">
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-2">
+              <label htmlFor="reg-email" className="block text-sm font-medium text-gray-700 mb-2">
                 E-Mail-Adresse
               </label>
               <input
+                id="reg-email"
                 type="email"
                 value={formData.email}
                 onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                 placeholder="name@unternehmen.com"
+                aria-required="true"
+                aria-describedby={errors.email ? 'reg-email-error' : undefined}
                 className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
               />
               {errors.email && (
-                <p className="text-red-600 text-sm mt-1">{errors.email}</p>
+                <p id="reg-email-error" role="alert" className="text-red-600 text-sm mt-1">{errors.email}</p>
               )}
             </div>
 
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-2">
+              <label htmlFor="reg-password" className="block text-sm font-medium text-gray-700 mb-2">
                 Passwort erstellen
               </label>
               <input
+                id="reg-password"
                 type="password"
                 value={formData.password}
                 onChange={(e) => setFormData({ ...formData, password: e.target.value })}
                 placeholder="Mindestens 8 Zeichen"
+                aria-required="true"
+                aria-describedby={errors.password ? 'reg-password-error' : undefined}
                 className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
               />
               {errors.password && (
-                <p className="text-red-600 text-sm mt-1">{errors.password}</p>
+                <p id="reg-password-error" role="alert" className="text-red-600 text-sm mt-1">{errors.password}</p>
               )}
             </div>
 
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-2">
+              <label htmlFor="reg-confirm-password" className="block text-sm font-medium text-gray-700 mb-2">
                 Passwort bestätigen
               </label>
               <input
+                id="reg-confirm-password"
                 type="password"
                 value={formData.confirmPassword}
                 onChange={(e) => setFormData({ ...formData, confirmPassword: e.target.value })}
                 placeholder="Passwort erneut eingeben"
+                aria-required="true"
+                aria-describedby={errors.confirmPassword ? 'reg-confirm-error' : undefined}
                 className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
               />
               {errors.confirmPassword && (
-                <p className="text-red-600 text-sm mt-1">{errors.confirmPassword}</p>
+                <p id="reg-confirm-error" role="alert" className="text-red-600 text-sm mt-1">{errors.confirmPassword}</p>
               )}
             </div>
 
             <div>
-              <label className="flex items-start gap-3 cursor-pointer">
+              <label htmlFor="reg-agree-terms" className="flex items-start gap-3 cursor-pointer">
                 <input
+                  id="reg-agree-terms"
                   type="checkbox"
                   checked={formData.agreeToTerms}
                   onChange={(e) => setFormData({ ...formData, agreeToTerms: e.target.checked })}
+                  aria-required="true"
+                  aria-describedby={errors.agreeToTerms ? 'reg-terms-error' : undefined}
                   className="w-5 h-5 mt-0.5 text-blue-600 border-gray-300 rounded focus:ring-blue-500"
                 />
                 <span className="text-sm text-gray-700">
@@ -161,7 +173,7 @@ export function Registration() {
                 </span>
               </label>
               {errors.agreeToTerms && (
-                <p className="text-red-600 text-sm mt-1">{errors.agreeToTerms}</p>
+                <p id="reg-terms-error" role="alert" className="text-red-600 text-sm mt-1">{errors.agreeToTerms}</p>
               )}
             </div>
 

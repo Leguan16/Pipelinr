@@ -13,6 +13,7 @@ import { About } from './pages/About';
 import { Imprint } from './pages/Imprint';
 import { Privacy } from './pages/Privacy';
 import { Terms } from './pages/Terms';
+import { Accessibility } from './pages/Accessibility';
 
 function RootLayout() {
   const { pathname } = useLocation();
@@ -45,6 +46,7 @@ export const router = createBrowserRouter([
       { path: '/imprint', Component: Imprint },
       { path: '/privacy', Component: Privacy },
       { path: '/terms', Component: Terms },
+      { path: '/accessibility', Component: Accessibility },
     ],
   },
 ]);
