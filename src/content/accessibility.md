@@ -31,6 +31,12 @@ Die Barrierefreiheit dieser Website wurde mit folgenden Tools überprüft:
 - axeDevTools ([www.deque.com/axe/](https://www.deque.com/axe/))
 - Google Lighthouse ([developers.google.com/web/tools/lighthouse](https://developers.google.com/web/tools/lighthouse))
 
+## Weitere Informationen
+
+Wir sind bemüht, unsere Website laufend an neue und bereits geltende Standards anzupassen.
+Sollten Sie Feedback oder ein spezielles Anliegen haben, 
+können Sie gerne Kontakt mit uns über die unten genannte E-Nail Adresse aufnehmen.
+
 ## Feedback und Kontakt
 
 Sie können sich jederzeit mit Feedback oder Anliegen an uns wenden. 

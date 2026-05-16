@@ -1,0 +1,19 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="IedrhUn-Gl7suNct-j8j">
+    <mxGraphModel dx="682" dy="369" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="96QjTRcs4Wr5y39WDWYA-14" parent="1" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.uTurnArrow;dy=7.5;arrowHead=15;dx2=0;rotation=-180;fillColor=light-dark(#E5484D,#F87171);" value="" vertex="1">
+          <mxGeometry height="91" width="65" x="220" y="199" as="geometry" />
+        </mxCell>
+        <mxCell id="96QjTRcs4Wr5y39WDWYA-16" parent="1" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.51;dx=25;notch=0;fillColor=light-dark(#FFFFFF,#34D399);" value="" vertex="1">
+          <mxGeometry height="30" width="92" x="218" y="191" as="geometry" />
+        </mxCell>
+        <mxCell id="96QjTRcs4Wr5y39WDWYA-11" parent="1" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.uTurnArrow;dy=7.5;arrowHead=32.67;dx2=25.67;fillColor=light-dark(#F5A524,#60A5FA);" value="" vertex="1">
+          <mxGeometry height="100" width="70" x="170" y="190" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
