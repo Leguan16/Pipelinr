@@ -77,6 +77,8 @@ und der damit verbundenen Bestellung des Produktes und durch Annahme des Anbiete
 
 8.3 Der Kunde haftet grundsätzlich für die von ihm erstellten Konfigurationen.
 
+8.3.1 Der Kunde hat dafür zu sorgen, dass die von ihm erstellten und verwendeten Inhalte nicht gegen Gesetze verstoßen.
+
 ## 9. Softwarenutzung
 
 9.1 Der Anbieter stellt die Software zur Verfügung.
