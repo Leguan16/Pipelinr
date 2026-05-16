@@ -19,15 +19,21 @@ Aufsichtsbehörde: Magistratisches Bezirksamt des I. Bezirkes
 
 ## Lizenzen & Hinweise
 
-Lizenzen: Diese Website verwendet an manchen Stellen "JetBrains Mono" als Schriftart.
-"JetbBrains" stellt diese Schriftart unter der SIL Open Font License, Version 1.1 ([https://scripts.sil.org/OFL](https://scripts.sil.org/OFL)) zur freien Nutzung
-und Weiterverbreitung zur Verfügung.
+**Lizenzen:** Diese Website verwendet an manchen Stellen "JetBrains Mono" als Schriftart.
+"JetbBrains" stellt diese Schriftart unter der SIL Open Font License, Version 1.1 ([https://scripts.sil.org/OFL](https://scripts.sil.org/OFL)) 
+zur freien Nutzung und Weiterverbreitung zur Verfügung.
 
-KI-Hinweis:
+**KI-Hinweise:**
 Das Layout und einzelne Inhalte wurden mithilfe von Figma und Figma AI gestaltet bzw. überarbeitet.
-Nach den Figma AI Terms ([https://www.figma.com/legal/ai-terms/](https://www.figma.com/legal/ai-terms/)) behalten Nutzer grundsätzlich ihre Rechte an eigenen Inhalten.
+Laut den Figma AI Terms ([https://www.figma.com/legal/ai-terms/](https://www.figma.com/legal/ai-terms/)) 
+behalten Nutzer grundsätzlich ihre Rechte an eigenen Inhalten.
 Alle Inhalte wurden vor der Veröffentlichung geprüft.
 
-Erstellungshinweis: 
+Das Logo von DeployFlow wurde mithilfe von Claude erstellt und anschließend manuell überarbeitet. 
+Laut den Anthropic Customer Terms ([https://www.anthropic.com/legal/consumer-terms](https://www.anthropic.com/legal/consumer-terms))
+behalten Nutzer grundsätzlich ihre Rechte an eigenen Inhalten.
+Alle Inhalte wurden vor der Veröffentlichung geprüft.
+
+**Erstellungshinweis:** 
 Diese Website wurde ausschließlich im Rahmen einer Studienaufgabe erstellt.
 Das dargestellte Unternehmen sowie die dazu angegebenen Daten sind fiktiv.

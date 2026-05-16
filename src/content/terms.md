@@ -2,77 +2,106 @@
 
 ## 1. Geltungsbereich
 
-Diese Allgemeinen Geschäftsbedingungen (AGB) gelten für alle Verträge zwischen der DeployFlow GmbH (nachfolgend "Anbieter") und ihren Kunden über die Nutzung der CI/CD-Plattform DeployFlow.
+Diese Allgemeinen Geschäftsbedingungen (AGB) gelten für die Nutzung der Website und der Softwarelösung DeployFlow.
+
+DeployFlow (folgend "Produkt") ist eine cloudbasierte CI/CD-Plattform, für die Verwaltung und Deployment von Software. 
+
+Anbieter ist DeployFlow GmbH, Musterstraße 123, 1010 Wien, Österreich
+
+Diese AGB gelten für alle Verträge zwischen DeployFlow GmbH (folgend "Anbieter") und den Nutzerinnen und Nutzern (folgend "Kunden") der Software, 
+soweit keine abweichenden schriftlichen Vereinbarungen getroffen wurden.  
 
 ## 2. Vertragsgegenstand
 
-Der Anbieter stellt dem Kunden eine cloudbasierte CI/CD-Plattform zur Verfügung, über die der Kunde Build-, Test- und Deployment-Pipelines für seine Software-Projekte erstellen und ausführen kann.
+Der Anbieter stellt dem Kunden eine cloudbasierte CI/CD-Plattform zur Verfügung.
+Damit können Kunden unter anderem Build-Prozesse verwalten und anschließend Software deployen und integrieren.
 
 ## 3. Vertragsschluss und Registrierung
 
-3.1 Der Vertrag kommt durch die Registrierung des Kunden auf der Website des Anbieters zustande.
+3.1 Das Vertragsverhältnis zwischen Kunden und Anbieter kommt durch die Registrierung des Kunden 
+und der damit verbundenen Bestellung des Produktes und durch Annahme des Anbieters zustande.
 
-3.2 Der Kunde muss bei der Registrierung wahrheitsgemäße und vollständige Angaben machen.
+3.2 Der Kunde muss bei der Registrierung folgende Daten wahrheitsgemäß und vollständig angeben: vollständiger Name, E-Mail-Adresse, geografische Adresse, Firmenname (wenn vorhanden).
 
-3.3 Mit der Registrierung erklärt der Kunde sein Einverständnis mit diesen AGB.
+3.3 Der Kunde bestätigt bei der Registrierung die Einwilligung derzeit geltenden AGB. 
 
 ## 4. Leistungsumfang
 
-4.1 Der Anbieter stellt dem Kunden die Plattform gemäß der gewählten Preisstufe zur Verfügung.
+4.1 Der Umfang der vertraglichen Leistung ergibt sich aus der gewählten Produktstufe "Free", "Pro", "Business" oder "Enterprise". 
 
-4.2 Der Anbieter gewährleistet eine Verfügbarkeit der Plattform von 99,5% im Jahresmittel.
+4.2 Der Anbieter gewährleistet eine Verfügbarkeit von 99,5%.
 
-4.3 Geplante Wartungsarbeiten werden dem Kunden mindestens 48 Stunden im Voraus angekündigt.
+4.2.1 Kann der Anbieter die oben genannte Verfügbarkeit nicht gewährleisten, so kann der Kunde vom Vertrag zurücktreten. 
+
+4.3 Der Anbieter kann regelmäßig Wartungsarbeiten durchführen.
+
+4.3.1 Wartungsarbeiten werden spätestens 48 Stunden im Voraus vom Anbieter angekündigt.
 
 ## 5. Preise und Zahlungsbedingungen
 
-5.1 Es gelten die zum Zeitpunkt der Buchung auf der Website angegebenen Preise.
+5.1 Es gelten die jeweiligen Preise zum Zeitpunkt der Bestellung.
 
-5.2 Alle Preise verstehen sich zzgl. der gesetzlichen Umsatzsteuer.
+5.2 Der Anbieter kann jederzeit Preise ändern.
 
-5.3 Die Abrechnung erfolgt monatlich oder jährlich im Voraus, je nach gewähltem Abrechnungsintervall.
+5.2.1 Der Kunde wird über diese Änderung rechtzeitig informiert und kann gegebenenfalls vom Vertrag zurücktreten.
 
-5.4 Die Zahlung erfolgt per Kreditkarte, Lastschrift oder Rechnung.
+5.3 Die Zahlung erfolgt ausschließlich per Kreditkarte über den Zahlungsdienst "Stripe".
+
+5.4 Die Zahlung erfolgt monatlich oder jährlich im Voraus. 
 
 ## 6. Vertragslaufzeit und Kündigung
 
-6.1 Der Vertrag wird für die vom Kunden gewählte Laufzeit (monatlich oder jährlich) geschlossen.
+6.1 Die Vertragslaufzeit wird vom Kunden bei der Buchung des Produktes festgelegt.
 
-6.2 Der Vertrag verlängert sich automatisch um den gleichen Zeitraum, wenn er nicht mit einer Frist von 14 Tagen vor Ablauf gekündigt wird.
+6.1.1 Der Kunde kann die Vertragslaufzeit jederzeit für den nächsten Zeitraum ändern.
 
-6.3 Das Recht zur außerordentlichen Kündigung bleibt unberührt.
+6.2 Soweit nicht anders angegeben, wird der Vertrag automatisch verlängert. 
 
-## 7. Pflichten des Kunden
+6.2.1 Der Kunde hat grundsätzlich bis einen Tag vor dem Ablauf der derzeit laufenden Vertragsdauer Zeit, ohne Angabe von Gründen vom Vertrag zurückzutreten.
 
-7.1 Der Kunde ist verpflichtet, seine Zugangsdaten vertraulich zu behandeln.
+6.2.2 In manchen Fällen wird dem Kunden die übrige Vertragslaufzeit erstattet. 
 
-7.2 Der Kunde darf die Plattform nicht für rechtswidrige Zwecke nutzen.
+6.3 Der Anbieter ist berechtigt, den Vertrag, bei wesentlichem Verstoß gegen die Vertragsvereinbarungen, aus wichtigem Grund vorzeitig zu kündigen.
 
-7.3 Der Kunde ist für regelmäßige Backups seiner Daten selbst verantwortlich.
+## 7. Datenschutz und Datensicherheit
 
-## 8. Datenschutz und Datensicherheit
+7.1 Bei der Nutzung des Produktes verarbeitet der Anbieter personenbezogene Daten gemäß der DSGVO. 
 
-Der Anbieter verarbeitet personenbezogene Daten des Kunden gemäß der DSGVO. Details entnehmen Sie bitte unserer Datenschutzerklärung.
+7.2 Informationen zur Erhebung und Verarbeitung von personenbezogenen Daten sind in der Datenschutzerklärung einzusehen.
 
-## 9. Haftung
+## 8. Haftung
 
-9.1 Der Anbieter haftet unbeschränkt für Vorsatz und grobe Fahrlässigkeit.
+8.1 Der Anbieter haftet für von ihm verursachte Schäden gegenüber dem Kunden gemäß den gesetzlichen Bestimmungen.
 
-9.2 Bei leichter Fahrlässigkeit haftet der Anbieter nur für die Verletzung wesentlicher Vertragspflichten.
+8.2 Bei Datenverlust haftet der Anbieter nur für den Wiederherstellungsaufwand.
 
-9.3 Die Haftung für Datenverlust ist auf den typischen Wiederherstellungsaufwand beschränkt.
+8.3 Der Kunde haftet grundsätzlich für die von ihm erstellten Konfigurationen.
+
+## 9. Softwarenutzung
+
+9.1 Der Anbieter stellt die Software zur Verfügung.
+
+9.2 Der Kunde ist für die Softwarenutzung selbst verantwortlich.
+
+9.3 Der Kunde darf die Software nicht für Zwecke nutzen, die gegen Gesetze verstoßen oder dritten Schaden.
+
+9.4 Bei Verstoß gegen die Softwarenutzung behält sich der Anbieter vor, den Vertrag aus wichtigem Grund vorzeitig zu kündigen.
 
 ## 10. Änderungen der AGB
 
-Der Anbieter behält sich vor, diese AGB zu ändern. Änderungen werden dem Kunden mindestens 4 Wochen vor Inkrafttreten mitgeteilt. Widerspricht der Kunde nicht innerhalb von 4 Wochen, gelten die geänderten AGB als akzeptiert.
+10.1 Der Anbieter behält sich vor, die AGB und die damit verbundenen Vertragsbestimmungen zu ändern. 
 
-## 11. Schlussbestimmungen
+10.2 Der Anbieter informiert spätestens 4 Wochen vor Inkrafttretung der Änderungen. 
 
-11.1 Es gilt das Recht der Bundesrepublik Deutschland.
+10.3 Der Kunde hat die Möglichkeit, diesen Änderungen zu widersprechen und vom Vertrag zurückzutreten.
 
-11.2 Sollten einzelne Bestimmungen dieser AGB unwirksam sein, bleibt die Wirksamkeit der übrigen Bestimmungen unberührt.
+## 11. Geltendes Recht, Erfüllungsort, Gerichtsstand
 
-11.3 Gerichtsstand ist Berlin.
+11.1 Es gilt österreichisches Recht.
+
+11.2 Erfüllungsort ist 1010, Wien
+
+11.3 Gerichtsstand für alle Streitigkeiten aus dem Vertragsverhältnis ist 1010, Wien.
 
 ---
 

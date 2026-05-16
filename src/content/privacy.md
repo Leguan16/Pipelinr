@@ -5,7 +5,7 @@ In dieser Datenschutzerklärung wird von uns als Verantwortlichem nach Art. 4 Ab
 welche Daten wir bei deinem Besuch auf unserer Website erheben und zu welchem Zweck wir diese verarbeiten.
 
 Diese Website wurde im Rahmen eines Studien-/Schulprojekts erstellt.
-Es handelt sich um einen fiktiven Webshop für das Softwareprodukt deployflow.
+Es handelt sich um einen fiktiven Webshop für das Softwareprodukt DeployFlow.
 Es findet kein echter Verkauf und keine echte Zahlungsabwicklung statt.
 
 **Alle Informationen über den Verantwortlichen für die Datenverarbeitung 
@@ -36,7 +36,7 @@ werden zusätzlich folgende Daten erfasst und verarbeitet:
 Diese Daten werden ausschließlich verwendet, um die Registrierung und Nutzung der angebotenen Funktionen der Website zu ermöglichen 
 sowie Anfragen der Nutzerinnen und Nutzer zu bearbeiten.
 
-Wenn explizit der Erhebung und Verarbeitung von Analysedaten (siehe **4. Cookies**) zugestimmt wird, 
+Wenn explizit der Erhebung und Verarbeitung von Analysedaten (siehe Abschnitt **5. Cookies**) zugestimmt wird, 
 werden zusätzlich folgende Daten erfasst und verarbeitet:
 
 - Cookies
@@ -69,9 +69,36 @@ Zu diesen Daten gehören:
 Die Verarbeitung dieser Daten erfolgt, um die Website technisch bereitzustellen und die Sicherheit der Website zu gewährleisten. 
 Rechtsgrundlage ist das berechtigte Interesse gemäß Art. 6 Abs. 1 lit. f DSGVO.
 
-Cloudflare kann Daten auch außerhalb der Europäischen Union, insbesondere in den USA, verarbeiten. Weitere Informationen finden sich in der Datenschutzerklärung von Cloudflare.
+Cloudflare kann Daten auch außerhalb der Europäischen Union, insbesondere in den USA, verarbeiten.
+Weitere Informationen sind in der Datenschutzerklärung von Cloudflare zu finden: [https://www.cloudflare.com/privacypolicy/](https://www.cloudflare.com/privacypolicy/])
 
-## 3. Speicherdauer
+## 3. Zahlungsabwicklung
+
+DeployFlow verwendet Stripe für die Zahlungsabwicklung. 
+
+Stripe Technology Company Limited (STC) \
+One Wilton Park \
+Wilton Place \
+Dublin 2, D02 FX04, Irland
+
+Stripe kann während der Zahlungsabwicklung personenbezogene Daten sammeln und verarbeiten.
+Zu diesen Daten gehören:
+
+* Name
+* E-Mail Adresse
+* Adressinformationen
+* Zahlungsinformationen
+* Transaktionsdetails
+* IP-Adresse
+* Browsertyp und Browserversion
+* Interaktionsdaten
+
+Die Verarbeitung dieser Daten erfolgt, um die Zahlung abwickeln zu können, und ist daher technisch notwendig.
+Zusätzlich kann Stripe Daten erfassen, die zur Betrugsbekämpfung verwendet werden. 
+
+Weitere Informationen sind in der Datenschutzerklärung von Stripe zu finden: [https://stripe.com/de/privacy](https://stripe.com/de/privacy)
+
+## 4. Speicherdauer
 
 Personenbezogene Daten werden nur so lange gespeichert, 
 wie es für den jeweiligen Zweck erforderlich ist oder gesetzliche Aufbewahrungspflichten bestehen.
@@ -83,10 +110,13 @@ Daten, die für die Analyse der Website benötigt werden, werden nur auf Grundla
 Die Speicherdauer richtet sich nach den jeweiligen Anforderungen des eingesetzten Dienstes.
 Nutzerinnen und Nutzer können ihre Einwilligung jederzeit widerrufen. 
 
-Im Rahmen der Bereitstellung der Website durch Cloudflare können technische Verbindungs- und Sicherheitsdaten durch Cloduflare verarbeitet werden. 
-Details dazu finden Sie in der Datenschutzerklärung von Cloudflare (https://www.cloudflare.com/privacypolicy/).
+Im Rahmen der Bereitstellung der Website durch Cloudflare können technische Verbindungs- und Sicherheitsdaten durch Cloduflare verarbeitet werden.
+Weitere Informationen sind in der Datenschutzerklärung von Cloudflare zu finden: [https://www.cloudflare.com/privacypolicy/](https://www.cloudflare.com/privacypolicy/])
 
-## 4. Cookies
+Für die Zahlungsabwicklung kann Stripe Daten verarbeiten. 
+Weitere Informationen sind in der Datenschutzerklärung von Stripe zu finden: [https://stripe.com/de/privacy](https://stripe.com/de/privacy)
+
+## 5. Cookies
 
 Wir verwenden verschiedene Cookies, um das Nutzungserlebnis zu verbessern und zu analysieren. 
 Dazu werden Informationen über Seitenaufrufe, Klickverhalten und Nutzerinteraktionen gesammelt und verarbeitet. 
@@ -95,7 +125,7 @@ Solche Cookies werden nur nach entsprechender Einwilligung gesetzt.
 Cookies, die benötigt werden, um die Funktionsfähigkeit der Website zu gewährleisten, werden unabhängig von der Einwilligung gesetzt. 
 Diese Cookies sind technisch notwendig und ermöglichen die Nutzung der Website. 
 
-## 5. Ihre Rechte
+## 6. Ihre Rechte
 
 Betroffene Personen haben nach der DSGVO, insbesondere folgende Rechte:
 
@@ -116,12 +146,12 @@ Barichgasse 40-42 \
 Telefon: +43 1 52 152-0 \
 E-Mail: dsb@dsb.gv.at
 
-## 6. Widerruf Ihrer Einwilligung zur Datenverarbeitung
+## 7. Widerruf Ihrer Einwilligung zur Datenverarbeitung
 
 Durch das Recht auf Widerruf zur Datenverarbeitung haben die die Möglichkeit, bereits erteilte Einwilligungen jederzeit zu widerrufen. 
 Die bis zum Widerruf erfolgte Datenverarbeitung bleibt davon unberührt.
 
-## 7. Externe Links
+## 8. Externe Links
 
 Diese Website verwendet externe Links zu Webseiten anderer Dienste. 
 Wir haben keinen Einfluss darauf, inwiefern diese Dienste ihre Datenschutzerklärung einhalten. 

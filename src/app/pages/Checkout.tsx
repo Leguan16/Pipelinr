@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useNavigate, useSearchParams } from 'react-router';
-import { Check, CreditCard, AlertCircle } from 'lucide-react';
+import { Check, CreditCard, AlertCircle, Lock } from 'lucide-react';
 import {Footer} from "../components/Footer";
 import logo from '/src/content/logo.svg';
 
@@ -308,10 +308,16 @@ export function Checkout() {
                 </div>
 
                 <div className="pt-6 border-t border-gray-200">
-                  <h2 className="text-2xl font-bold text-gray-900 mb-6 flex items-center gap-2">
-                    <CreditCard className="w-6 h-6" />
-                    Zahlungsdaten
-                  </h2>
+                  <div className="flex items-center justify-between mb-6">
+                    <h2 className="text-2xl font-bold text-gray-900 flex items-center gap-2">
+                      <CreditCard className="w-6 h-6" />
+                      Zahlungsdaten
+                    </h2>
+                    <span className="flex items-center gap-1.5 px-3 py-1.5 bg-[#635bff]/10 border border-[#635bff]/20 rounded-lg text-xs font-medium text-[#4f46e5]">
+                      <Lock className="w-3 h-3" />
+                      Gesichert durch <strong>Stripe</strong>
+                    </span>
+                  </div>
 
                   <div className="space-y-5">
                     <div>
