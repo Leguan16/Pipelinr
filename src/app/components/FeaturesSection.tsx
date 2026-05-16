@@ -23,7 +23,7 @@ const features = [
   {
     icon: GitBranch,
     title: 'Git-Integration',
-    description: 'Verbinde DeployFlow mit GitHub, GitLab oder Bitbucket und starte Pipelines direkt nach einem Commit.',
+    description: 'Verbinde Pipelinr mit GitHub, GitLab oder Bitbucket und starte Pipelines direkt nach einem Commit.',
   },
   {
     icon: Layers,

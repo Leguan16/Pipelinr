@@ -52,8 +52,8 @@ export function Registration() {
       <div className="max-w-6xl w-full grid lg:grid-cols-2 gap-12 items-center">
         <div className="hidden lg:block">
           <div className="flex items-center gap-2 mb-6">
-            <img src={logo} alt="DeployFlow" className="h-10 w-auto" />
-            <span className="text-2xl font-semibold text-gray-900">DeployFlow</span>
+            <img src={logo} alt="Pipelinr" className="h-10 w-auto" />
+            <span className="text-2xl font-semibold text-gray-900">Pipelinr</span>
           </div>
           <h2 className="text-4xl font-bold text-gray-900 mb-4">
             Starte in wenigen Minuten
@@ -74,12 +74,12 @@ export function Registration() {
 
         <div className="bg-white rounded-2xl shadow-xl p-8 border border-gray-200">
           <div className="lg:hidden flex items-center gap-2 mb-6">
-            <img src={logo} alt="DeployFlow" className="h-10 w-auto" />
-            <span className="text-xl font-semibold text-gray-900">DeployFlow</span>
+            <img src={logo} alt="Pipelinr" className="h-10 w-auto" />
+            <span className="text-xl font-semibold text-gray-900">Pipelinr</span>
           </div>
 
           <h1 className="text-3xl font-bold text-gray-900 mb-2">
-            Erstelle dein DeployFlow-Konto
+            Erstelle dein Pipelinr-Konto
           </h1>
           <p className="text-gray-600 mb-6">
             Registriere dich, um dein ausgewähltes Paket zu kaufen und deine CI/CD-Pipelines zu verwalten.

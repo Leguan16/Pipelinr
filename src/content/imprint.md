@@ -2,12 +2,12 @@
 
 ## Angaben gemäß § 25 Mediengesetz
 
-DeployFlow GmbH \
+Pipelinr GmbH \
 Musterstraße 123, 1010 Wien \
 Österreich  
 
 Telefon: +43 660 1234567 \
-E-Mail: contact@deployflow.com 
+E-Mail: contact@pipelinr.com 
 
 Firmenbuch: 1029242f \
 Gerichtsstand: Handelsgericht Wien \
@@ -29,7 +29,7 @@ Laut den Figma AI Terms ([https://www.figma.com/legal/ai-terms/](https://www.fig
 behalten Nutzer grundsätzlich ihre Rechte an eigenen Inhalten.
 Alle Inhalte wurden vor der Veröffentlichung geprüft.
 
-Das Logo von DeployFlow wurde mithilfe von Claude erstellt und anschließend manuell überarbeitet. 
+Das Logo von Pipelinr wurde mithilfe von Claude erstellt und anschließend manuell überarbeitet. 
 Laut den Anthropic Customer Terms ([https://www.anthropic.com/legal/consumer-terms](https://www.anthropic.com/legal/consumer-terms))
 behalten Nutzer grundsätzlich ihre Rechte an eigenen Inhalten.
 Alle Inhalte wurden vor der Veröffentlichung geprüft.

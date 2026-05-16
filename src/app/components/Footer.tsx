@@ -21,11 +21,11 @@ export function Footer() {
         <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-12 mb-12">
           <div className="lg:col-span-2">
             <div className="flex items-center gap-2 mb-4">
-              <img src={logo} alt="DeployFlow" className="h-10 w-auto" />
-              <span className="text-xl font-semibold text-white">DeployFlow</span>
+              <img src={logo} alt="Pipelinr" className="h-10 w-auto" />
+              <span className="text-xl font-semibold text-white">Pipelinr</span>
             </div>
             <p className="text-gray-400 leading-relaxed">
-              DeployFlow automatisiert Builds, Tests und Deployments für moderne Softwareteams.
+              Pipelinr automatisiert Builds, Tests und Deployments für moderne Softwareteams.
             </p>
           </div>
 
@@ -59,7 +59,7 @@ export function Footer() {
 
         <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-gray-400 text-sm">
-            © 2026 DeployFlow. Alle Rechte vorbehalten.
+            © 2026 Pipelinr. Alle Rechte vorbehalten.
           </p>
 
           <div className="flex items-center gap-4">

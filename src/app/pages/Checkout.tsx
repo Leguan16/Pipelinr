@@ -92,8 +92,8 @@ export function Checkout() {
       <div className="min-h-screen bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl mx-auto">
           <div className="flex items-center gap-2 mb-8">
-            <img src={logo} alt="DeployFlow" className="h-10 w-auto" />
-            <span className="text-xl font-semibold text-gray-900">DeployFlow</span>
+            <img src={logo} alt="Pipelinr" className="h-10 w-auto" />
+            <span className="text-xl font-semibold text-gray-900">Pipelinr</span>
           </div>
 
           <div className="bg-white rounded-2xl shadow-lg p-8 border border-gray-200">
@@ -176,8 +176,8 @@ export function Checkout() {
     <div className="min-h-screen bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <div className="flex items-center gap-2 mb-8">
-          <img src={logo} alt="DeployFlow" className="h-10 w-auto" />
-          <span className="text-xl font-semibold text-gray-900">DeployFlow</span>
+          <img src={logo} alt="Pipelinr" className="h-10 w-auto" />
+          <span className="text-xl font-semibold text-gray-900">Pipelinr</span>
         </div>
 
         <div className="mb-8">

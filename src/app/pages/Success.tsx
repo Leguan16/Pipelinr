@@ -33,7 +33,7 @@ export function Success() {
           </div>
 
           <h1 className="text-4xl font-bold text-gray-900 mb-4">
-            Willkommen bei DeployFlow
+            Willkommen bei Pipelinr
           </h1>
 
           <p className="text-xl text-gray-600 mb-6">

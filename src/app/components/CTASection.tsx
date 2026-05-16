@@ -9,7 +9,7 @@ export function CTASection() {
           Bereit für schnellere Deployments?
         </h2>
         <p className="text-xl text-blue-100 mb-8">
-          Starte mit DeployFlow und automatisiere deinen Software-Release-Prozess noch heute.
+          Starte mit Pipelinr und automatisiere deinen Software-Release-Prozess noch heute.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <button

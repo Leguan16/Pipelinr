@@ -36,11 +36,11 @@ export function About() {
       <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-blue-50 to-white">
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-            Über DeployFlow
+            Über Pipelinr
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
             Wir sind ein Team aus Entwicklern, die verstehen, wie frustrierend komplexe
-            Deployment-Prozesse sein können. Deshalb haben wir DeployFlow entwickelt –
+            Deployment-Prozesse sein können. Deshalb haben wir Pipelinr entwickelt –
             eine CI/CD-Plattform, die einfach, schnell und zuverlässig ist.
           </p>
         </div>
@@ -59,7 +59,7 @@ export function About() {
                 Zuverlässigkeit steigen.
               </p>
               <p className="text-lg text-gray-600 leading-relaxed">
-                DeployFlow wurde gegründet, um diesen neuen Anforderungen gerecht zu werden. Wir glauben,
+                Pipelinr wurde gegründet, um diesen neuen Anforderungen gerecht zu werden. Wir glauben,
                 dass CI/CD nicht kompliziert sein muss – und dass jedes Team, egal ob Startup oder
                 Enterprise, Zugang zu professionellen Deployment-Tools haben sollte.
               </p>

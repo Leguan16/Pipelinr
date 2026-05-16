@@ -17,8 +17,8 @@ export function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <button onClick={() => navigate('/')} className="flex items-center gap-2 hover:opacity-80 transition-opacity">
-            <img src={logo} alt="DeployFlow" className="h-10 w-auto" />
-            <span className="text-xl font-semibold text-gray-900">DeployFlow</span>
+            <img src={logo} alt="Pipelinr" className="h-10 w-auto" />
+            <span className="text-xl font-semibold text-gray-900">Pipelinr</span>
           </button>
 
           <nav className="hidden md:flex items-center gap-8">

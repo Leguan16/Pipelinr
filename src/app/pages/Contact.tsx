@@ -42,7 +42,7 @@ export function Contact() {
                 <Mail className="w-6 h-6 text-blue-600" />
               </div>
               <h3 className="font-semibold text-gray-900 mb-2">E-Mail</h3>
-              <p className="text-gray-600">contact@deployflow.com</p>
+              <p className="text-gray-600">contact@pipelinr.com</p>
             </div>
 
             <div className="bg-gray-50 p-6 rounded-xl text-center">

@@ -10,7 +10,7 @@ export function ProcessSection() {
     {
       icon: PlayCircle,
       title: 'Pipeline startet automatisch',
-      description: 'DeployFlow erkennt den Commit und startet',
+      description: 'Pipelinr erkennt den Commit und startet',
     },
     {
       icon: CheckCircle,

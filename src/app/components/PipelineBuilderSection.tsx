@@ -41,7 +41,7 @@ jobs:
     environment: production
     steps:
       - name: Auf Server deployen
-        run: deployflow deploy --env production`;
+        run: Pipelinr deploy --env production`;
 
 type Status = 'success' | 'running' | 'pending';
 
@@ -127,7 +127,7 @@ export function PipelineBuilderSection() {
                 style={tab === 'yaml' ? {} : { fontFamily: 'inherit' }}
               >
                 <span style={tab === 'yaml' ? { fontFamily: "'JetBrains Mono', monospace" } : {}}>
-                  deployflow.yml
+                  deploy.yml
                 </span>
               </button>
             </div>

@@ -20,15 +20,15 @@ export function Login() {
       <div className="max-w-md w-full">
         <div className="bg-white rounded-2xl shadow-xl p-8 border border-gray-200">
           <div className="flex items-center gap-2 mb-6 justify-center">
-            <img src={logo} alt="DeployFlow" className="h-10 w-auto" />
-            <span className="text-xl font-semibold text-gray-900">DeployFlow</span>
+            <img src={logo} alt="Pipelinr" className="h-10 w-auto" />
+            <span className="text-xl font-semibold text-gray-900">Pipelinr</span>
           </div>
 
           <h1 className="text-3xl font-bold text-gray-900 mb-2 text-center">
             Anmelden
           </h1>
           <p className="text-gray-600 mb-8 text-center">
-            Melde dich bei deinem DeployFlow-Konto an.
+            Melde dich bei deinem Pipelinr-Konto an.
           </p>
 
           <form onSubmit={handleSubmit} className="space-y-5">

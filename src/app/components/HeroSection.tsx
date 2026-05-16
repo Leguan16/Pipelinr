@@ -20,7 +20,7 @@ export function HeroSection() {
               Automatisiere deine Builds, Tests und Deployments
             </h1>
             <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-              DeployFlow ist die CI/CD-Plattform für moderne Entwicklerteams. Erstelle Pipelines,
+              Pipelinr ist die CI/CD-Plattform für moderne Entwicklerteams. Erstelle Pipelines,
               führe Tests automatisch aus und veröffentliche Software schneller und zuverlässiger.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">

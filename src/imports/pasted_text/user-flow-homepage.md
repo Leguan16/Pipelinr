@@ -1,11 +1,11 @@
-Erstelle einen vollständigen User Flow für die Startseite von „DeployFlow“, einem CI/CD-SaaS-Produkt. Der Flow startet, wenn ein Nutzer auf einen Button eines Abo-Pakets klickt, zum Beispiel „Free starten“, „Pro kaufen“, „Business kaufen“ oder „Kontakt aufnehmen“.
+Erstelle einen vollständigen User Flow für die Startseite von „Pipelinr“, einem CI/CD-SaaS-Produkt. Der Flow startet, wenn ein Nutzer auf einen Button eines Abo-Pakets klickt, zum Beispiel „Free starten“, „Pro kaufen“, „Business kaufen“ oder „Kontakt aufnehmen“.
 
 Ziel:
 Wenn der Nutzer auf ein Abo-Modell klickt, soll er zuerst zu einer Registrierungsseite weitergeleitet werden. Dort soll er seine E-Mail-Adresse eingeben und ein Passwort erstellen. Danach soll er auf einen gemockten Kaufbildschirm bzw. Checkout-Screen weitergeleitet werden, auf dem das ausgewählte Paket angezeigt wird.
 
 Allgemeiner Stil:
 - Modernes SaaS-Design
-- Passend zur Marke „DeployFlow“
+- Passend zur Marke „Pipelinr“
 - Farbpalette: Dunkles Navy, Blau, Türkis, Weiß und helles Grau
 - Klare, professionelle Oberfläche
 - Abgerundete Karten und Buttons
@@ -46,9 +46,9 @@ Zweck:
 Der Nutzer soll ein Konto erstellen, bevor er zum Kaufbildschirm kommt.
 
 Inhalt der Seite:
-- Oben links das DeployFlow-Logo
+- Oben links das Pipelinr-Logo
 - Überschrift:
-  „Erstelle dein DeployFlow-Konto“
+  „Erstelle dein Pipelinr-Konto“
 - Untertitel:
   „Registriere dich, um dein ausgewähltes Paket zu kaufen und deine CI/CD-Pipelines zu verwalten.“
 - Hinweis auf das ausgewählte Paket:
@@ -104,7 +104,7 @@ Zweck:
 Der Nutzer sieht eine Zusammenfassung seines ausgewählten Pakets und kann einen gemockten Kauf abschließen.
 
 Inhalt:
-- Header mit DeployFlow-Logo
+- Header mit Pipelinr-Logo
 - Fortschrittsanzeige oben:
   1. Paket wählen
   2. Konto erstellen
@@ -223,7 +223,7 @@ Erstelle eine dritte Seite mit dem Namen:
 Inhalt:
 - Großes Checkmark-Icon
 - Überschrift:
-  „Willkommen bei DeployFlow“
+  „Willkommen bei Pipelinr“
 - Text:
   „Dein Konto wurde erstellt und dein Paket wurde erfolgreich aktiviert.“
 - Dynamischer Hinweis:
@@ -280,6 +280,6 @@ Erstelle wiederverwendbare Komponenten für:
 - Die Buttons der Abo-Modelle sollen klar als Einstieg in den Kaufprozess erkennbar sein.
 - Der Checkout soll realistisch aussehen, aber eindeutig als Demo oder Mock gekennzeichnet sein.
 - Der Nutzer soll sich zuerst registrieren, bevor er zum Kaufbildschirm kommt.
-- Das Design soll konsistent mit der DeployFlow-Startseite sein.
+- Das Design soll konsistent mit der Pipelinr-Startseite sein.
 - Alle Seiten sollen Desktop- und Mobile-Versionen haben.
 - Der Flow soll so wirken, als wäre er Teil eines echten Webshops für ein SaaS-Produkt.

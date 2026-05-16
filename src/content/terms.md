@@ -2,13 +2,13 @@
 
 ## 1. Geltungsbereich
 
-Diese Allgemeinen Geschäftsbedingungen (AGB) gelten für die Nutzung der Website und der Softwarelösung DeployFlow.
+Diese Allgemeinen Geschäftsbedingungen (AGB) gelten für die Nutzung der Website und der Softwarelösung Pipelinr.
 
-DeployFlow (folgend "Produkt") ist eine cloudbasierte CI/CD-Plattform, für die Verwaltung und Deployment von Software. 
+Pipelinr (folgend "Produkt") ist eine cloudbasierte CI/CD-Plattform, für die Verwaltung und Deployment von Software. 
 
-Anbieter ist DeployFlow GmbH, Musterstraße 123, 1010 Wien, Österreich
+Anbieter ist Pipelinr GmbH, Musterstraße 123, 1010 Wien, Österreich
 
-Diese AGB gelten für alle Verträge zwischen DeployFlow GmbH (folgend "Anbieter") und den Nutzerinnen und Nutzern (folgend "Kunden") der Software, 
+Diese AGB gelten für alle Verträge zwischen Pipelinr GmbH (folgend "Anbieter") und den Nutzerinnen und Nutzern (folgend "Kunden") der Software, 
 soweit keine abweichenden schriftlichen Vereinbarungen getroffen wurden.  
 
 ## 2. Vertragsgegenstand

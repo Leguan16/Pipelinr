@@ -9,12 +9,12 @@ export function Dashboard() {
   return (
     <div className="min-h-screen bg-gray-50 flex items-center justify-center px-4">
       <div className="max-w-2xl w-full text-center">
-        <img src={logo} alt="DeployFlow" className="h-10 w-auto" />
+        <img src={logo} alt="Pipelinr" className="h-10 w-auto" />
         <h1 className="text-4xl font-bold text-gray-900 mb-4">
           Dashboard (Mockup)
         </h1>
         <p className="text-xl text-gray-600 mb-8">
-          Dies ist ein Platzhalter für das DeployFlow Dashboard.
+          Dies ist ein Platzhalter für das Pipelinr Dashboard.
         </p>
         <button
           onClick={() => navigate('/')}

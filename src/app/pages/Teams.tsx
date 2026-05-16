@@ -63,7 +63,7 @@ export function Teams() {
           </h1>
 
           <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed">
-            DeployFlow wurde speziell für Entwicklerteams entwickelt. Arbeitet zusammen an Pipelines,
+            Pipelinr wurde speziell für Entwicklerteams entwickelt. Arbeitet zusammen an Pipelines,
             teilt Secrets sicher und deployt schneller – mit voller Kontrolle und Transparenz.
           </p>
 
@@ -136,10 +136,10 @@ export function Teams() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                Warum Teams DeployFlow wählen
+                Warum Teams Pipelinr wählen
               </h2>
               <p className="text-lg text-gray-600 mb-8">
-                Von kleinen Startups bis zu großen Unternehmen – DeployFlow skaliert mit deinem Team.
+                Von kleinen Startups bis zu großen Unternehmen – Pipelinr skaliert mit deinem Team.
               </p>
 
               <div className="space-y-4">
@@ -210,7 +210,7 @@ export function Teams() {
             Bereit, mit deinem Team zu starten?
           </h2>
           <p className="text-xl text-blue-100 mb-8">
-            Teste DeployFlow 14 Tage kostenlos mit deinem Team. Keine Kreditkarte erforderlich.
+            Teste Pipelinr 14 Tage kostenlos mit deinem Team. Keine Kreditkarte erforderlich.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button
