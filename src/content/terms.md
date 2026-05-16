@@ -29,7 +29,7 @@ und der damit verbundenen Bestellung des Produktes und durch Annahme des Anbiete
 
 4.1 Der Umfang der vertraglichen Leistung ergibt sich aus der gewählten Produktstufe "Free", "Pro", "Business" oder "Enterprise". 
 
-4.2 Der Anbieter gewährleistet eine Verfügbarkeit von 99,5%.
+4.2 Der Anbieter gewährleistet eine Verfügbarkeit von 99,9%.
 
 4.2.1 Kann der Anbieter die oben genannte Verfügbarkeit nicht gewährleisten, so kann der Kunde vom Vertrag zurücktreten. 
 

@@ -176,6 +176,10 @@ export function About() {
                   <span className="w-7 h-7 rounded-md inline-block flex-shrink-0" style={{ background: '#34D399' }} />
                   <span className="text-xs font-mono text-gray-600">#34D399</span>
                 </div>
+                <div className="flex items-center gap-2">
+                  <span className="w-7 h-7 rounded-md inline-block flex-shrink-0" style={{ background: '#F87171' }} />
+                  <span className="text-xs font-mono text-gray-600">#F87171</span>
+                </div>
               </div>
               <span className="text-sm text-blue-600">Die Logofarben</span>
             </div>

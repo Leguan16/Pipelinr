@@ -1,32 +1,33 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="20 10 80 88">
-  <title>Pipelinr</title>
-  <defs>
-    <marker id="ab" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto">
-      <path d="M1.5 2.5 L8 5 L1.5 7.5" fill="none" stroke="#60A5FA" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-    </marker>
-    <marker id="ag" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto">
-      <path d="M1.5 2.5 L8 5 L1.5 7.5" fill="none" stroke="#34D399" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-    </marker>
-  </defs>
-
-  <!-- Background -->
-<!--  <rect width="120" height="120" rx="26" fill="#0B1A38"/>-->
-
-  <!-- Pipeline arcs: Build → Integrate → Deploy → Build -->
-  <path d="M 43 78 Q 60 94 77 78" fill="none" stroke="#60A5FA" stroke-width="2.2" stroke-linecap="round" opacity="0.85" marker-end="url(#ab)"/>
-  <path d="M 82 70 Q 87 46 67 42" fill="none" stroke="#60A5FA" stroke-width="2.2" stroke-linecap="round" opacity="0.85" marker-end="url(#ab)"/>
-  <path d="M 53 42 Q 34 46 38 70" fill="none" stroke="#34D399" stroke-width="2.2" stroke-linecap="round" opacity="0.85" marker-end="url(#ag)"/>
-
-  <!-- Build node (bottom-left) -->
-  <circle cx="34" cy="78" r="9" fill="#0B1A38" stroke="#60A5FA" stroke-width="2.5"/>
-  <circle cx="34" cy="78" r="3.5" fill="#60A5FA"/>
-
-  <!-- Integrate node (bottom-right) -->
-  <circle cx="86" cy="78" r="9" fill="#0B1A38" stroke="#60A5FA" stroke-width="2.5"/>
-  <circle cx="86" cy="78" r="3.5" fill="#60A5FA"/>
-
-  <!-- Deploy node (top — larger, emerald) -->
-  <circle cx="60" cy="30" r="14" fill="#0B1A38" stroke="#34D399" stroke-width="2.5"/>
-  <path d="M 60 37 L 60 21" stroke="#34D399" stroke-width="2.2" stroke-linecap="round"/>
-  <path d="M 56 25.5 L 60 21 L 64 25.5" fill="none" stroke="#34D399" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="141px" height="101px" viewBox="0 0 141 101">
+    <defs/>
+    <g>
+        <g data-cell-id="0">
+            <g data-cell-id="1">
+                <g data-cell-id="96QjTRcs4Wr5y39WDWYA-14">
+                    <g transform="translate(0.5,0.5)">
+                        <path d="M 95.5 9 L 95.5 16.5 L 95.5 24 L 95.5 24 C 78.66 24 65 37.66 65 54.5 C 65 71.34 78.66 85 95.5 85 L 115 85 L 115 100 L 95.5 100 C 70.37 100 50 79.63 50 54.5 C 50 29.37 70.37 9 95.5 9 Z"
+                              fill="#e5484d" stroke="#000000" stroke-miterlimit="10" transform="rotate(-180,82.5,54.5)"
+                              pointer-events="all" style="fill: rgb(248, 113, 113); stroke: rgb(0, 0, 0);"/>
+                    </g>
+                </g>
+                <g data-cell-id="96QjTRcs4Wr5y39WDWYA-16">
+                    <g transform="translate(0.5,0.5)">
+                        <path d="M 48 8.65 L 115 8.65 L 115 1 L 140 16 L 115 31 L 115 23.35 L 48 23.35 L 48 16 Z"
+                              fill="#ffffff" stroke="#000000" stroke-miterlimit="10" pointer-events="all"
+                              style="fill: rgb(52, 211, 153); stroke: rgb(0, 0, 0);"/>
+                    </g>
+                </g>
+                <g data-cell-id="96QjTRcs4Wr5y39WDWYA-11">
+                    <g transform="translate(0.5,0.5)">
+                        <path d="M 45.58 0 L 71.25 16.34 L 45.58 32.67 L 45.58 23.84 C 28.69 23.84 15 37.53 15 54.42 C 15 71.31 28.69 85 45.58 85 L 70 85 L 70 100 L 45.58 100 C 20.41 100 0 79.59 0 54.42 C 0 29.24 20.41 8.84 45.58 8.84 Z"
+                              fill="#f5a524" stroke="#000000" stroke-miterlimit="10" pointer-events="all"
+                              style="fill: rgb(96, 165, 250); stroke: rgb(0, 0, 0);"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
 </svg>

@@ -16,25 +16,20 @@ Unser Ziel ist es, die Barrierefreiheit bestmöglich zu erreichen. Dazu gehören
 
 Folgende Maßnahmen wurden ergriffen:
 
-- Verwendung semantischer HTML-Elemente
+- Verwendung spezieller HTML-Elemente (ARIA Attribute)
 - Ausreichende Farbkontraste gemäß WCAG 2.2 Erfolgskriterium 1.4.3 
 - Beschriftungen für Links und Schaltflächen
-- Unterstriche für Links in Textbereichen zur visuellen Unterscheidung
+- Links sind ausreichend unterscheidbar, ohne auf Farbe angewiesen zu sein.
 - Hervorhebung von aktiven Textfeldern
+- Navigation von Buttons mit Tastatur möglich
 
-## Technische Spezifikationen
+## Überprüfung
 
-Die Barrierefreiheit dieser Website beruht auf folgenden Technologien:
+Die Barrierefreiheit dieser Website wurde mit folgenden Tools überprüft:
 
-- HTML
-- CSS
-- JavaScript (React)
-
-## Bekannte Einschränkungen
-
-Folgende Inhalte oder Funktionen sind derzeit nicht vollständig barrierefrei:
-
-**Codeblöcke:** Die Syntaxhervorhebung in den YAML-Beispielen wird nicht durch Screenreader übermittelt. Der Text ist jedoch vollständig lesbar.
+- WAVE ([wave.webaim.org](https://wave.webaim.org/))
+- axeDevTools ([www.deque.com/axe/](https://www.deque.com/axe/))
+- Google Lighthouse ([developers.google.com/web/tools/lighthouse](https://developers.google.com/web/tools/lighthouse))
 
 ## Feedback und Kontakt
 
@@ -44,7 +39,7 @@ Pipelinr GmbH \
 Musterstraße 123 \
 1010 Wien, Österreich
 
-E-Mail: accessibility@pipelinr.at
+E-Mail: accessibility@pipelinr.com
 
 Wir bemühen uns, Ihr Anliegen so schnell wie möglich zu bearbeiten.
 

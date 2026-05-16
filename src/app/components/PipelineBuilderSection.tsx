@@ -41,7 +41,7 @@ jobs:
     environment: production
     steps:
       - name: Auf Server deployen
-        run: Pipelinr deploy --env production`;
+        run: pipelinr deploy --env production`;
 
 type Status = 'success' | 'running' | 'pending';
 
