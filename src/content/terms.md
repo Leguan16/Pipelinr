@@ -71,13 +71,11 @@ und der damit verbundenen Bestellung des Produktes und durch Annahme des Anbiete
 
 ## 8. Haftung
 
-8.1 Der Anbieter haftet für von ihm verursachte Schäden gegenüber dem Kunden gemäß den gesetzlichen Bestimmungen.
+8.1 Der Anbieter übernimmt keine Haftung für Schäden aufgrund höherer Gewalt oder Schäden, die durch den Kunden oder die Nutzung des Produktes entstehen. 
 
-8.2 Bei Datenverlust haftet der Anbieter nur für den Wiederherstellungsaufwand.
+8.1.1 Eine Haftung für Vorsatz und grobe Fahrlässigkeit des Anbieters bleibt unberührt.
 
-8.3 Der Kunde haftet grundsätzlich für die von ihm erstellten Konfigurationen.
-
-8.3.1 Der Kunde hat dafür zu sorgen, dass die von ihm erstellten und verwendeten Inhalte nicht gegen Gesetze verstoßen.
+8.2 Der Kunde haftet, für die von ihm erstellen Inhalte und dadurch entstehende Schäden. 
 
 ## 9. Softwarenutzung
 
