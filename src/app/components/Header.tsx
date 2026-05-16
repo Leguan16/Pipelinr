@@ -31,7 +31,7 @@ export function Header() {
               onClick={() => navigate('/')}
               className="flex items-center gap-2 hover:opacity-80 transition-opacity rounded focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500"
             >
-              <img src={logo} alt="Pipelinr" className="h-10 w-auto" />
+              <img src={logo} alt="" className="h-10 w-auto" />
               <span className="text-xl font-semibold text-gray-900">Pipelinr</span>
             </button>
 
