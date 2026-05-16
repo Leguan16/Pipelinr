@@ -33,7 +33,7 @@ export function About() {
   return (
     <div className="min-h-screen bg-white">
       <Header />
-
+      <main id="main-content">
       <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-blue-50 to-white">
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
@@ -207,6 +207,7 @@ export function About() {
           </div>
         </div>
       </section>
+      </main>
       <Footer/>
     </div>
   );

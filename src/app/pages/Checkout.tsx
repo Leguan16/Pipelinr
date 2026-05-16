@@ -181,7 +181,7 @@ export function Checkout() {
   }
 
   return (
-    <div className="min-h-screen bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
+    <main id="main-content" className="min-h-screen bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <div className="flex items-center gap-2 mb-8">
           <img src={logo} alt="Pipelinr" className="h-10 w-auto" />
@@ -493,6 +493,6 @@ export function Checkout() {
         </div>
       </div>
       <Footer/>
-    </div>
+    </main>
   );
 }

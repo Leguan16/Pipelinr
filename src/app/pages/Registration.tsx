@@ -48,7 +48,7 @@ export function Registration() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 flex items-center justify-center px-4 py-12">
+    <main id="main-content" className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 flex items-center justify-center px-4 py-12">
       <div className="max-w-6xl w-full grid lg:grid-cols-2 gap-12 items-center">
         <div className="hidden lg:block">
           <div className="flex items-center gap-2 mb-6">
@@ -162,11 +162,11 @@ export function Registration() {
                 />
                 <span className="text-sm text-gray-700">
                   Ich akzeptiere die{' '}
-                  <a href="/terms" target="_blank" className="text-blue-600 hover:underline">
+                  <a href="/terms" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
                     AGB
                   </a>{' '}
                   und{' '}
-                  <a href="/privacy" target="_blank" className="text-blue-600 hover:underline">
+                  <a href="/privacy" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
                     Datenschutzbestimmungen
                   </a>
                   .
@@ -193,6 +193,6 @@ export function Registration() {
           </form>
         </div>
       </div>
-    </div>
+    </main>
   );
 }

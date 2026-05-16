@@ -58,7 +58,7 @@ export function HeroSection() {
                   </div>
                 </div>
                 <div className="flex items-center gap-3 p-3 bg-blue-50 border border-blue-200 rounded-lg">
-                  <Zap className="w-5 h-5 text-blue-600 animate-pulse" />
+                  <Zap className="w-5 h-5 text-blue-600 motion-safe:animate-pulse" />
                   <div className="flex-1">
                     <div className="text-sm font-medium text-gray-900">Deployment läuft...</div>
                     <div className="text-xs text-gray-600">Progress: 75%</div>

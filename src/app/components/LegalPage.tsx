@@ -10,6 +10,7 @@ export function LegalPage({ content }: LegalPageProps) {
   return (
     <div className="min-h-screen bg-white">
       <Header />
+      <main id="main-content">
       <div className="pt-24 pb-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto">
           <ReactMarkdown
@@ -44,6 +45,7 @@ export function LegalPage({ content }: LegalPageProps) {
           </ReactMarkdown>
         </div>
       </div>
+      </main>
       <Footer />
     </div>
   );

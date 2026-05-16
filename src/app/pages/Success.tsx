@@ -25,7 +25,7 @@ export function Success() {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-green-50 via-blue-50 to-white flex items-center justify-center px-4 py-12">
+    <main id="main-content" className="min-h-screen bg-gradient-to-br from-green-50 via-blue-50 to-white flex items-center justify-center px-4 py-12">
       <div className="max-w-2xl w-full text-center">
         <div className="bg-white rounded-3xl shadow-2xl p-12 border border-gray-200">
           <div className="w-24 h-24 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
@@ -78,17 +78,17 @@ export function Success() {
         </div>
 
         <p className="text-gray-500 mt-8">
-          Fragen? Schau in unsere{' '}
-          <a href="#docs" className="text-blue-600 hover:underline">
-            Dokumentation
-          </a>{' '}
-          oder kontaktiere unseren{' '}
-          <a href="#support" className="text-blue-600 hover:underline">
-            Support
-          </a>
+          Fragen?{' '}
+          <button
+            type="button"
+            onClick={() => navigate('/contact')}
+            className="text-blue-600 underline underline-offset-2 hover:text-blue-800 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded-sm"
+          >
+            Kontaktiere unseren Support
+          </button>
           .
         </p>
       </div>
-    </div>
+    </main>
   );
 }

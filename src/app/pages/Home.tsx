@@ -27,14 +27,16 @@ export function Home() {
   return (
     <div className="min-h-screen bg-white">
       <Header />
-      <HeroSection />
-      <TrustBadges />
-      <FeaturesSection />
-      <PipelineBuilderSection />
-      <ProcessSection />
-      <PricingSection />
-      <LoginSection />
-      <CTASection />
+      <main id="main-content">
+        <HeroSection />
+        <TrustBadges />
+        <FeaturesSection />
+        <PipelineBuilderSection />
+        <ProcessSection />
+        <PricingSection />
+        <LoginSection />
+        <CTASection />
+      </main>
       <Footer />
     </div>
   );

@@ -2,6 +2,7 @@ import { Github, Linkedin } from 'lucide-react';
 import { useNavigate, useLocation } from 'react-router';
 import logo from '/src/content/logo.svg';
 
+const footerBtnClass = "hover:text-white transition-colors rounded focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white";
 
 export function Footer() {
   const navigate = useNavigate();
@@ -32,28 +33,28 @@ export function Footer() {
           <div>
             <h3 className="text-white font-semibold mb-4">Produkt</h3>
             <ul className="space-y-2">
-              <li><button onClick={() => handleHashNav('features')} className="hover:text-white transition-colors">Features</button></li>
-              <li><button onClick={() => handleHashNav('pricing')} className="hover:text-white transition-colors">Preise</button></li>
-              <li><button onClick={() => navigate('/teams')} className="hover:text-white transition-colors">Für Teams</button></li>
-              <li><button onClick={() => handleHashNav('integrations')} className="hover:text-white transition-colors">Integrationen</button></li>
+              <li><button onClick={() => handleHashNav('features')} className={footerBtnClass}>Features</button></li>
+              <li><button onClick={() => handleHashNav('pricing')} className={footerBtnClass}>Preise</button></li>
+              <li><button onClick={() => navigate('/teams')} className={footerBtnClass}>Für Teams</button></li>
+              <li><button onClick={() => handleHashNav('integrations')} className={footerBtnClass}>Integrationen</button></li>
             </ul>
           </div>
 
           <div>
             <h3 className="text-white font-semibold mb-4">Unternehmen</h3>
             <ul className="space-y-2">
-              <li><button onClick={() => navigate('/about')} className="hover:text-white transition-colors">Über uns</button></li>
-              <li><button onClick={() => navigate('/contact')} className="hover:text-white transition-colors">Kontakt</button></li>
+              <li><button onClick={() => navigate('/about')} className={footerBtnClass}>Über uns</button></li>
+              <li><button onClick={() => navigate('/contact')} className={footerBtnClass}>Kontakt</button></li>
             </ul>
           </div>
 
           <div>
             <h3 className="text-white font-semibold mb-4">Rechtliches</h3>
             <ul className="space-y-2">
-              <li><button onClick={() => navigate('/imprint')} className="hover:text-white transition-colors">Impressum</button></li>
-              <li><button onClick={() => navigate('/privacy')} className="hover:text-white transition-colors">Datenschutz</button></li>
-              <li><button onClick={() => navigate('/terms')} className="hover:text-white transition-colors">AGB</button></li>
-              <li><button onClick={() => navigate('/accessibility')} className="hover:text-white transition-colors">Barrierefreiheit</button></li>
+              <li><button onClick={() => navigate('/imprint')} className={footerBtnClass}>Impressum</button></li>
+              <li><button onClick={() => navigate('/privacy')} className={footerBtnClass}>Datenschutz</button></li>
+              <li><button onClick={() => navigate('/terms')} className={footerBtnClass}>AGB</button></li>
+              <li><button onClick={() => navigate('/accessibility')} className={footerBtnClass}>Barrierefreiheit</button></li>
             </ul>
           </div>
         </div>
@@ -64,10 +65,10 @@ export function Footer() {
           </p>
 
           <div className="flex items-center gap-4">
-            <a href="#github" className="hover:text-white transition-colors" aria-label="Visit our GitHub Profile">
+            <a href="#github" className="hover:text-white transition-colors rounded focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white" aria-label="Visit our GitHub Profile">
               <Github className="w-5 h-5" />
             </a>
-            <a href="#linkedin" className="hover:text-white transition-colors" aria-label="Visit our Linked-In Profile">
+            <a href="#linkedin" className="hover:text-white transition-colors rounded focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white" aria-label="Visit our Linked-In Profile">
               <Linkedin className="w-5 h-5" />
             </a>
           </div>

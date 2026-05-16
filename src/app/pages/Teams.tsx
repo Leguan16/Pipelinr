@@ -51,6 +51,7 @@ export function Teams() {
   return (
     <div className="min-h-screen bg-white">
       <Header/>
+      <main id="main-content">
       <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-blue-50 to-white">
         <div className="max-w-7xl mx-auto text-center">
           <div className="inline-flex items-center gap-2 bg-blue-100 text-blue-700 px-4 py-2 rounded-full mb-6">
@@ -228,6 +229,7 @@ export function Teams() {
           </div>
         </div>
       </section>
+      </main>
       <Footer/>
     </div>
   );

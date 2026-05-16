@@ -24,7 +24,7 @@ export function Contact() {
   return (
     <div className="min-h-screen bg-white">
       <Header/>
-
+      <main id="main-content">
       <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
@@ -161,6 +161,7 @@ export function Contact() {
           </div>
         </div>
       </section>
+      </main>
       <Footer/>
     </div>
   );

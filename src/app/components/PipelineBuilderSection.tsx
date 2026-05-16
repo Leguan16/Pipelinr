@@ -153,7 +153,7 @@ export function PipelineBuilderSection() {
                   1m 44s
                 </span>
                 <span className="flex items-center gap-1.5 ml-auto">
-                  <span className="w-2 h-2 rounded-full bg-blue-500 animate-pulse" />
+                  <span className="w-2 h-2 rounded-full bg-blue-500 motion-safe:animate-pulse" />
                   <span className="text-blue-600 font-medium">Läuft</span>
                 </span>
               </div>
@@ -183,7 +183,7 @@ export function PipelineBuilderSection() {
                             <CheckCircle2 className="w-3 h-3 text-green-700" />
                           )}
                           {stage.status === 'running' && (
-                            <span className="w-2 h-2 rounded-full bg-blue-500 animate-pulse" />
+                            <span className="w-2 h-2 rounded-full bg-blue-500 motion-safe:animate-pulse" />
                           )}
                           {stage.status === 'pending' && (
                             <Clock className="w-3 h-3 text-gray-500" />
@@ -212,7 +212,7 @@ export function PipelineBuilderSection() {
                   <span className="text-green-800">✓ npm install — 14s</span>
                   <span className="text-green-800">✓ npm test — 38s</span>
                   <span className="text-blue-600 flex items-center gap-2">
-                    <span className="w-2 h-2 rounded-full bg-blue-500 animate-pulse inline-block" />
+                    <span className="w-2 h-2 rounded-full bg-blue-500 motion-safe:animate-pulse inline-block" />
                     npm run build — läuft…
                   </span>
                 </div>
