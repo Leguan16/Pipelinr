@@ -29,9 +29,9 @@ export function CookieBanner() {
         <Cookie className="w-6 h-6 text-blue-600 shrink-0 mt-0.5 sm:mt-0" />
 
         <p className="text-sm text-gray-600 flex-1">
-          Wir verwenden Cookies und ähnliche Technologien – darunter technisch notwendige sowie Cookies zur Analyse des Nutzerverhaltens –
-          um unsere Website zu betreiben und zu verbessern. Mit „Akzeptieren" stimmen Sie der Verwendung aller Cookies zu.
-          Weitere Informationen finden Sie in unserer{' '}
+          Wir nutzen Cookies um unsere Website zu betreiben und zu verbessern. Dazu zählen technisch Notwendige und Cookies die zu Analysezwecken dienen.
+          Mit „Akzeptieren" stimmen Sie der Verwendung aller Cookies zu. Wenn Sie optionale Cookies ablehnen, werden nur technisch notwendige Cookies gesetzt.
+          Weitere Informationen finden Sie in der{' '}
           <button
             onClick={() => navigate('/privacy')}
             className="text-blue-600 hover:underline"
