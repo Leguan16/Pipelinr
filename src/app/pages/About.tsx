@@ -2,6 +2,7 @@ import { useNavigate } from 'react-router';
 import { Target, Users, Zap, Heart, TrendingUp } from 'lucide-react';
 import {Footer} from "../components/Footer";
 import {Header} from "../components/Header";
+import logo from '/src/content/logo.svg';
 
 export function About() {
   const navigate = useNavigate();
@@ -111,6 +112,73 @@ export function About() {
                 <p className="text-gray-600">{value.description}</p>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+        <div className="max-w-4xl mx-auto">
+          <div className="text-center mb-10">
+            <h2 className="text-4xl font-bold text-gray-900 mb-2">Marke und Klassifikation</h2>
+          </div>
+
+          <div className="rounded-xl border border-gray-200 overflow-hidden">
+            {/* Table header */}
+            <div className="grid grid-cols-3 px-6 py-3 bg-gray-50 border-b border-gray-200 text-sm font-semibold text-gray-700">
+              <span>Kategorie</span>
+              <span>Darstellung</span>
+              <span>Beschreibung</span>
+            </div>
+
+            {/* Row 1 */}
+            <div className="grid grid-cols-3 px-6 py-5 border-b border-gray-100 items-center">
+              <div>
+                <p className="font-bold text-gray-900 text-sm">Nizza-Klasse 42</p>
+                <p className="text-xs text-gray-500 mt-0.5">SaaS &amp; IT-Dienste</p>
+              </div>
+              <span className="text-sm text-gray-600">Software as a Service</span>
+              <span className="text-sm text-blue-600">CI/CD-Pipelines, Cloud-Computing, automatisierte Build-, Test- und Deployment-Prozesse</span>
+            </div>
+
+            {/* Row 2 */}
+            <div className="grid grid-cols-3 px-6 py-5 border-b border-gray-100 items-center">
+              <span className="font-bold text-gray-900 text-sm">Wortmarke</span>
+              <span className="text-base font-bold text-gray-900">Pipelinr</span>
+              <span className="text-sm text-blue-600">Reine Textmarke ohne grafische Elemente</span>
+            </div>
+
+            {/* Row 3 */}
+            <div className="grid grid-cols-3 px-6 py-5 border-b border-gray-100 items-center">
+              <span className="font-bold text-gray-900 text-sm">Bildmarke</span>
+              <img src={logo} alt="Pipelinr Logo" className="h-9 w-auto" />
+              <span className="text-sm text-blue-600">Grafisches Element ohne Text</span>
+            </div>
+
+            {/* Row 4 */}
+            <div className="grid grid-cols-3 px-6 py-5 border-b border-gray-100 items-center">
+              <span className="font-bold text-gray-900 text-sm">Wort-/Bildmarke</span>
+              <div className="flex items-center gap-2">
+                <img src={logo} alt="Pipelinr Logo" className="h-9 w-auto" />
+                <span className="text-base font-bold text-gray-900">Pipelinr</span>
+              </div>
+              <span className="text-sm text-blue-600">Kombination aus Logo und Schriftzug</span>
+            </div>
+
+            {/* Row 5 */}
+            <div className="grid grid-cols-3 px-6 py-5 items-center">
+              <span className="font-bold text-gray-900 text-sm">Farbmarke</span>
+              <div className="flex items-center gap-3">
+                <div className="flex items-center gap-2">
+                  <span className="w-7 h-7 rounded-md inline-block flex-shrink-0" style={{ background: '#60A5FA' }} />
+                  <span className="text-xs font-mono text-gray-600">#60A5FA</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <span className="w-7 h-7 rounded-md inline-block flex-shrink-0" style={{ background: '#34D399' }} />
+                  <span className="text-xs font-mono text-gray-600">#34D399</span>
+                </div>
+              </div>
+              <span className="text-sm text-blue-600">Die Logofarben</span>
+            </div>
           </div>
         </div>
       </section>
