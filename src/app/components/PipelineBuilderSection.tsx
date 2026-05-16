@@ -209,8 +209,8 @@ export function PipelineBuilderSection() {
               <div className="mt-8 rounded-lg border border-blue-100 bg-blue-50 p-4">
                 <p className="text-xs font-semibold text-blue-600 uppercase tracking-wide mb-2">Aktueller Schritt — Build</p>
                 <div className="flex flex-col gap-1.5 text-sm font-mono text-gray-700">
-                  <span className="text-green-600">✓ npm install — 14s</span>
-                  <span className="text-green-600">✓ npm test — 38s</span>
+                  <span className="text-green-800">✓ npm install — 14s</span>
+                  <span className="text-green-800">✓ npm test — 38s</span>
                   <span className="text-blue-600 flex items-center gap-2">
                     <span className="w-2 h-2 rounded-full bg-blue-500 animate-pulse inline-block" />
                     npm run build — läuft…
