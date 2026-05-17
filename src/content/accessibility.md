@@ -10,7 +10,7 @@ Unser Ziel ist es, die Barrierefreiheit bestmöglich zu erreichen. Dazu gehören
 
 - Bundesgesetz zur Barrierefreiheitsanforderung (Barrierefreiheitsgesetz - BaFG) 
 - die Richtlinie (EU) 2019/882 des Europäischen Parlaments
-- und die WCAG 2.2 (Web Content Accessibility Guidelines)
+- die WCAG 2.2 AA (Web Content Accessibility Guidelines)
 
 ## Maßnahmen zur Barrierefreiheit
 
