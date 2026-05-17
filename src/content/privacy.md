@@ -4,7 +4,7 @@ Diese Website wird betrieben von der Pipelinr GmbH (FN 1029242f), in der Folge "
 In dieser Datenschutzerklärung wird von uns als Verantwortlichem nach Art. 4 Abs. 7 DSGVO einerseits beschrieben, 
 welche Daten wir bei deinem Besuch auf unserer Website erheben und zu welchem Zweck wir diese verarbeiten.
 
-Diese Website wurde im Rahmen eines Studien-/Schulprojekts erstellt.
+Diese Website wurde im Rahmen eines Studienprojekts erstellt.
 Es handelt sich um einen fiktiven Webshop für das Softwareprodukt Pipelinr.
 Es findet kein echter Verkauf und keine echte Zahlungsabwicklung statt.
 
