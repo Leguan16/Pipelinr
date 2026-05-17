@@ -23,13 +23,24 @@ Folgende Maßnahmen wurden ergriffen:
 - Hervorhebung von aktiven Textfeldern
 - Navigation von Buttons mit Tastatur möglich
 
+## (Noch) nicht barrierefreie Inhalte
+
+Während wir uns bemühen, unsere Website für alle Nutzer zugänglich zu machen, gibt es einige Inhalte, die noch nicht vollständig barrierefrei sind.
+
+ - Über die Barrierefreiheit externer Zahlungsdienstleister haben wir keinen Einfluss. 
+
+Sollten sie während der Nutzung unserer Website auf Barrieren 
+stoßen, bitte kontaktieren Sie uns über unsere Kontaktdaten weiter unten.
+
 ## Überprüfung
 
-Die Barrierefreiheit dieser Website wurde mit folgenden Tools überprüft:
+Die Barrierefreiheit dieser Website wird regelmäßig mit folgenden Tools überprüft:
 
 - WAVE ([wave.webaim.org](https://wave.webaim.org/))
 - axeDevTools ([www.deque.com/axe/](https://www.deque.com/axe/))
 - Google Lighthouse ([developers.google.com/web/tools/lighthouse](https://developers.google.com/web/tools/lighthouse))
+
+Die Website wurde zuletzt am 15.5.2026 überprüft.
 
 ## Weitere Informationen
 
