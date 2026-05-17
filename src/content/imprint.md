@@ -32,7 +32,7 @@ behalten Nutzer grundsätzlich ihre Rechte an eigenen Inhalten.
 Alle Inhalte wurden vor der Veröffentlichung geprüft.
 
 Das Logo von Pipelinr wurde mithilfe von draw.io erstellt und ist per draw.io erlaubt für kommerzielle Zwecke zu nutzen.
-Weitere Informationen finden Sie unter [github.com/jgraph/drawio#license](https://github.com/jgraph/drawio#license)
+Weitere Informationen finden Sie unter [https://github.com/jgraph/drawio#license](https://github.com/jgraph/drawio#license).
 
 **Erstellungshinweis:** 
 Diese Website wurde ausschließlich im Rahmen einer Studienaufgabe erstellt.
